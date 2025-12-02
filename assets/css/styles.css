@@ -8,8 +8,8 @@
   --color-green: #48ff00;
   --color-yellow: #ffc226;
   --color-orange: #ff6826;
-  --font-sans: 'Play', sans-serif;
-  --font-serif: 'Play', sans-serif;
+  --font-sans: 'Prosto One', sans-serif !important; 
+  --font-serif: 'Prosto One', sans-serif !important;
   --dark-theme-bg: #3b3b3b;
 }
 
@@ -41,6 +41,7 @@
 }
 
 body {
+  font-family: 'Prosto One', sans-serif;
   background: #FFF;
   overflow-x: hidden;
   min-height: 100vh;
