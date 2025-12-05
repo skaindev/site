@@ -47,6 +47,18 @@ body {
   min-height: 100vh;
 }
 
+
+.hero-section {
+  padding: 0 0 5rem !important;
+  margin-top: 6rem !important;
+
+
+  @media (--viewport-small) {
+    padding: 10px 0 !important;
+    margin-top: 0 !important;
+  }
+}
+
 .color-primary {
   color: var( --color-black);
 }
