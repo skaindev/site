@@ -1,0 +1,50 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    SameSite = "STRICT"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Content-Security-Policy = '''
+    default-src 'self';
+
+    font-src 'self' fonts.gstatic.com gstatic.com *.gstatic.com;
+    frame-src 'self' btw.so *.btw.so youtube.com *.youtube.com;
+    img-src 'self' data:;
+    script-src 'self' 'unsafe-inline' btw.so *.btw.so googletagmanager.com *.googletagmanager.com list-manage.com *.list-manage.com;
+    style-src 'self' 'unsafe-inline' fonts.googleapis.com;
+
+    connect-src 'self' skaina.com *.skaina.com btw.so *.btw.so google-analytics.com *.google-analytics.com list-manage.com *.list-manage.com sentry.io *.sentry.io;
+
+    object-src 'none';'''
+
+[build]
+  command = "npm run generate"
+  publish = "dist"
+
+[context.branch-deploy.environment]
+  NODE_ENV = "development"
+
+[context.deploy-preview.environment]
+  NODE_ENV = "development"
+
+[[redirects]]
+  from = "/blog"
+  to = "https://Skaina.ghost.io/blog/"
+  status = 200
+  force = true
+  headers = {X-Forwarded-Host = "skaina.com"}
+
+[[redirects]]
+  from = "/blog/*"
+  to = "https://Skaina.ghost.io/blog/:splat"
+  status = 200
+  force = true
+  headers = {X-Forwarded-Host = "skaina.com"}
+
+[[redirects]]
+  from = "/testnet"
+  to = "https://testnet.skaina.com"
+  status = 301
+  force = true
+
