@@ -53,7 +53,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 @import url('./lib/media-query-helper.css');
 
 .heading {
@@ -66,6 +66,7 @@ export default {
   margin-top: 1.2rem;
   margin-bottom: 1.2rem;;
   color: black;
+
 
   @media (--viewport-medium) {
     font-size: 1.125rem;
