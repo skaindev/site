@@ -14,14 +14,14 @@
           <v-stack direction="column">
             <app-section-descriptor
               description="Skaina is a next-generation blockchain designed to preserve what truly matters: documents, patents, proofs, records, and digital assets that must never be lost, altered, or destroyed.
-Built for permanence. Engineered for truth. Powered by a decentralized network that protects your legacy — forever."
+               Built for permanence. Engineered for truth. Powered by a decentralized network that protects your legacy — forever."
               class="hero-description"
             />
             <v-stack align="center" gap="1.5rem" sm-gap="1rem" wrap>
-              <router-link to="/about/">
+              <router-link to="">
                 <v-button label="WHITEPAPER" label-transform="uppercase" />
               </router-link>
-              <router-link to="/careers/">
+              <router-link to="">
                 <v-button
                   color="#ccc"
                   variant="outline"
@@ -62,15 +62,16 @@ export default {
 }
 </script>
 
-<style lang="css" scoped>
+<style>
 @import url('../lib/media-query-helper.css');
 
 .hero-section {
-  padding: 0 0 5rem;
+  padding: 0 0 5rem !important;
+  margin-top: 6rem !important;
 
 
   @media (--viewport-small) {
-    padding: 10px 0;
+    padding: 10px 0 !important;
     margin-top: 0 !important;
   }
 }
@@ -91,15 +92,18 @@ export default {
 }
 
 .hero-description {
+  font-family: 'Prosto One', sans-serif;
   margin-block: 2rem;
 }
 
 .hero-content-container {
-  max-width: 50rem;
-  margin-top: 6rem;
+  font-family: 'Prosto One', sans-serif;
+  max-width: 40rem !important;
+  margin-top: 4rem !important;
 }
 
 .hero-title {
+  font-family: 'Prosto One', sans-serif;
   margin-block: 0;
   max-width: 30ch;
 }
