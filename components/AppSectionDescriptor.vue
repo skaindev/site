@@ -53,7 +53,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 @import url('./lib/media-query-helper.css');
 
 .heading {
