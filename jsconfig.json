@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {    
+    "baseUrl": ".",
+    "ignoreDeprecations": "6.0",
+    "paths": {
+      "~/*": ["./*"]
+    }
+  },
+  "exclude": [".nuxt-storybook", ".nuxt", "dist", "node_modules"] 
+}
