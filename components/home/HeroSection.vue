@@ -62,7 +62,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="css" scoped>
 @import url('../lib/media-query-helper.css');
 
 .hero-section {
