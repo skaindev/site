@@ -42,7 +42,32 @@
       We do not sell, rent, or trade your personal data to third parties.
     </div>
 
+    <div class="terms-title">COOKIES & TRACKING</div>
+    <div class="terms-text">
+      Skaina may use cookies or similar technologies to improve user experience and analyze website traffic.
+      You may disable cookies in your browser settings; however, some features of the Website may not function properly.
+    </div>
 
+    <div class="terms-title">THIRD-PARTY SERVICES</div>
+    <div class="terms-text">
+      The Website may contain links to third-party websites or services. Skaina is not responsible for the privacy practices,
+      policies, or content of any third-party services. You access such services at your own risk.
+    </div>
+
+    <div class="terms-title">DATA SECURITY</div>
+    <div class="terms-text">
+      We implement reasonable technical and organizational measures to protect information against unauthorized access,
+      loss, misuse, or alteration. However, no method of transmission over the internet or blockchain technology is 100% secure.
+    </div>
+
+    <div class="terms-title">CHANGES TO THIS POLICY</div>
+    <div class="terms-text">
+      We reserve the right to update or modify this Privacy Policy at any time. Changes will be effective immediately upon posting
+      and reflected by an updated “Last updated” date.
+    </div>
+
+    <div class="terms-text">
+      Last updated: December 18, 2025
     </div>
   </main>
 </template>
