@@ -1,7 +1,7 @@
 <template>
   <div class="banner">
     <v-text line-height="1.5" :weight="500" size="1rem">
-      <a href="https://buy.skaina.com" target="_blank">Presale</a> is now live!
+      <a href="https://testnet.skaina.com" target="_blank">Testnet will go live Q1 2026!</a>
     </v-text>
   </div>
   
@@ -12,9 +12,9 @@
 
 .banner {
   /* display: none; */
-  background: linear-gradient(180deg, #31C1BF -4.5%, #000 100.1%); 
+  background: #000; 
   padding: 0.25em 1.5em;
-  color: #31C1BF;
+  color: #FFF;
   text-align: center;
   @media (--viewport-small) {
     padding: 0.25rem 2rem;
@@ -22,7 +22,7 @@
 }
 
 a {
-  color: var( --color-green);
+  color: var( --color-white);
   transition: opacity 0.4s ease-in;
   opacity: 1;
   text-underline-offset: 0.1em;
