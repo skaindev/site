@@ -15,9 +15,8 @@
     <v-text font="sans" size="1rem" >
       <a href="/terms/"
               >
-    <v-text size="1rem" >Terms</v-text></a
+    <v-text size="1rem" >Privacy</v-text></a
             >
-      © {{ currentYear }} Skaina.
     </v-text>
 
     
