@@ -104,22 +104,19 @@ export default {
 
   content: {},
 
-  build: {
-    postcss: {
-      order: 'presetEnvAndCssnanoLast',
-      preset: {
-        stage: 0,
+build: {
+  postcss: {
+    plugins: {
+      'postcss-import': true,
+      'postcss-url': true,
+      'postcss-preset-env': {
+        stage: 2, // IMPORTANT
       },
-      plugins: {
-        'postcss-import': true,
-        'postcss-url': true,
-        'postcss-preset-env': {
-          stage: 0,
-        },
-        cssnano: { preset: 'default' },
-      },
+      cssnano: false, // IMPORTANT
     },
   },
+},
+
 
   googleFonts: {
     families: {
