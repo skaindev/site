@@ -32,7 +32,7 @@ export default {
 }
 </script>
 
-<style lang="css" scoped>
+<style> 
 /* Imported this for getting helper classes laptop-remove and mobile-remove */
 @import url('../lib/media-query-helper.css');
 
