@@ -37,7 +37,6 @@ export default {
 @import url('../lib/media-query-helper.css');
 
 section {
-  display: none !important; /* Hidded Roadmap */
   margin-top: 0 !important;
   padding: 6rem 0 0;
   color: black;
