@@ -1,6 +1,6 @@
 <template>
   <section>
-    <v-container>
+    <!-- <v-container>
       <v-stack>
         <app-section-descriptor
           title="Roadmap"
@@ -21,7 +21,7 @@
     </div>
     <div class="roadmap-container">
       <a href="/tech/" target="_blank"><v-button label="See details" label-transform="uppercase" /> </a>
-    </div>
+    </div> -->
   </section>
   
 </template>
@@ -57,7 +57,7 @@ section {
 }
 
 .roadmap-desktop {
-  /* display: none !important; */
+  display: none !important;
   width: 100%;
   max-width: 1720px;
 }
