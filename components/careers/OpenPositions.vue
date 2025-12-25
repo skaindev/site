@@ -1,6 +1,6 @@
 <template>
   <section>
-    <!-- <v-container>
+    <v-container>
       <app-section-descriptor
         title="Open Positions"
         heading="We’re Currently Hiring for a Number of Different Positions Around the World"
@@ -134,7 +134,7 @@
           </div>
         </template>
       </v-tabs>
-    </v-container> -->
+    </v-container>
   </section>
 </template>
 
