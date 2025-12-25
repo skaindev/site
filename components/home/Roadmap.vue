@@ -58,7 +58,7 @@ section {
 }
 
 .roadmap-desktop {
-  display: none !important;
+  /* display: none !important; */
   width: 100%;
   max-width: 1720px;
 }
