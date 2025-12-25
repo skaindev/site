@@ -12,11 +12,11 @@
 style="text-align: left;" />
 <div class="spc"></div>
 
-      <!-- <app-section-descriptor
+      <app-section-descriptor
             description="Skaina is more than a blockchain — it is a digital vault for humanity’s most valuable information.
 A platform where truth is permanent, documents live forever, and legacy becomes unbreakable."
 style="text-align: left;" />
-<div class="spc"></div> -->
+<div class="spc"></div>
 
 
 
