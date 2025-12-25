@@ -10,13 +10,13 @@
          <!-- <v-image class="serv-image" path="images/AI-bust.png" /> -->
          
       </v-stack>
-            <!-- <app-section-descriptor
+            <app-section-descriptor
         title="Contact"
         class="gin"
         heading="GET IN TOUCH"
       
         style="max-width: 64rem"
-      /> -->
+      />
 
          <app-section-descriptor
         title="Contact"
