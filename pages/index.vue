@@ -4,6 +4,7 @@
     <HomeOurServices />
     <HomeContactUs />
     <HomeRoadmap />
+    <AppFooter />
   </main>
 </template>
 
