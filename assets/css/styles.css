@@ -78,7 +78,7 @@ body {
   cursor: pointer;
 }
 .header-menu-item{
-  color: #fff;
+  color: #000 !important;
 
 }
 .absolute-center {
