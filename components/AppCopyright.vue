@@ -7,6 +7,13 @@
             >
       © {{ currentYear }} Skaina.
     </v-text>
+        <v-text font="sans" size="1rem" >
+      <a href="/terms/"
+              >
+    <v-text size="1rem" >Privacy.</v-text></a
+            >
+    
+    </v-text>
 
     
   </div>
@@ -31,6 +38,6 @@ div {
   padding: 1.5rem;
   text-align: center;
   background-color: #FFF;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #111;
 }
 </style>
