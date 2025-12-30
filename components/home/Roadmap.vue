@@ -41,7 +41,7 @@ section {
   padding: 6rem 0 0;
   color: black;
   background-color: #fff;
-  border: 1px solid #ccc;
+
   @media (--viewport-small) {
     padding: 3rem 0 0;
   }
