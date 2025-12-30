@@ -6,18 +6,8 @@
         justify="space-around"
         :grow="1"
         class="footer-logo-container"
-      >
-         <!-- <v-image class="serv-image" path="images/AI-bust.png" /> -->
-         
+      >     
       </v-stack>
-            <app-section-descriptor
-        title="Contact"
-        class="gin"
-        heading="GET IN TOUCH"
-      
-        style="max-width: 64rem"
-      />
-
          <app-section-descriptor
         title="Contact"
         class="get-in"
@@ -136,7 +126,7 @@ footer {
   background-color: #fff;
   background-size: cover;
   overflow-x: hidden;
-  border: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 
   @media (--viewport-small) {
     background-color: #000;
@@ -217,9 +207,9 @@ a {
   line-height: 2.25rem;
 }
 
-.get-in {
+/* .get-in {
   margin-top: 2rem;
-}
+} */
 .get-in-touch {
   font-size: 1.5rem;
   line-height: 2.25rem;
