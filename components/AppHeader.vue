@@ -4,11 +4,8 @@
       logo="images/logo.svg"
   :menu-items="menuItems"
   logo-width="180"
-
     />
-
       <div class="hero">
-
   </div>
   </header>
 </template>
@@ -22,33 +19,16 @@ export default {
         label: 'Start Building',
         link: process.env.skainaDashboardUrl,
       },
-      menuItems: [
-        
+      menuItems: [        
       {
           name: 'About',
           link: '/about/',
         },
-      // {
-      //     name: 'Asknio',
-      //     link: 'https://asknio.com',
-      //     external: true,
-      //   },
- 
-        //     {
-        //   name: 'NioDEX',
-        //   link: 'https://dex.skaina.com',
-        //   external: true,
-        // },
         {
           name: 'Discord',
           link: 'https://discord.gg/64wUyf78fN',
           external: true,
         },
-        
-        // {
-        //   name: 'Roadmap',
-        //   link: '/tech/',
-        // },
         {
            name: 'Github',
            link: 'https://github.com/skaindev',
@@ -72,7 +52,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .app-header {
   position: sticky;
   top: 0;
@@ -81,7 +61,8 @@ export default {
   background-color: #fff;
   height: 3.5rem;
   align-items: center;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #111;
+  padding: 0.5rem 0;
 
 .header-container img {
   width: 180px;
@@ -89,12 +70,9 @@ export default {
  
 }
 
-
-
 .app-header img {
   max-height: 100%;
   width: auto;
-   border-bottom: 1px solid #ccc;
 }
 
   
