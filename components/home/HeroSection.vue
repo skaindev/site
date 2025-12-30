@@ -23,7 +23,7 @@
               </router-link>
               <router-link to="">
                 <v-button
-                  color="#ccc"
+                  color="#000"
                   variant="outline"
                   label="DISCORD"
                   label-transform="uppercase"
@@ -62,7 +62,7 @@ export default {
 }
 </script>
 
-<style lang="css" scoped>
+<style>
 @import url('../lib/media-query-helper.css');
 
 .hero-section {
