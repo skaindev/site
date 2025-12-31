@@ -3,7 +3,7 @@
     <HomeHeroSection />
     <HomeOurServices />
     <HomeContactUs />
-    <HomeRoadmap />
+    <!-- <HomeRoadmap /> -->
     <AppFooter />
   </main>
 </template>
