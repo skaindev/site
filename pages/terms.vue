@@ -78,7 +78,7 @@
   font-size: 1rem;
   line-height: 2rem;
   margin: 1rem;
-  color: #000;
+  color: #09f;
 
   @media (--viewport-medium) {
     font-size: 1.125rem;
