@@ -81,9 +81,9 @@ export default {
   data() {
     return {
       highlights: [
-        // { title: 'Employees Worldwide', value: '5+' },
-        // { title: 'Renowned Investors', value: '5+' },
-        // { title: 'Funds Raised', value: '$0' },
+        { title: 'Employees Worldwide', value: '1' },
+        { title: 'Renowned Investors', value: '1' },
+        { title: 'Funds Raised', value: '$0' },
       ],
     }
   },
