@@ -1,7 +1,7 @@
 <template>
   <v-overlay>
     <iframe
-      src="https://www.youtube.com/embed/i4PaiLBsy7o"
+      src="https://www.youtube.com"
       title="What is Skaina? Mission | Benefits | Use Cases"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
