@@ -21,29 +21,8 @@
         justify="space-between"
         sm-justify="center"
       >
-        <!-- <v-image path="images/news/forbes.svg" /> -->
-        <a
-          href="https://markets.businessinsider.com/"
-          target="_blank"
-        >
-          <v-image path="images/news/businessinsider.svg" />
-        </a>
-        <a
-          href="https://cointelegraph.com/press-releases/"
-          target="_blank"
-        >
-          <v-image path="images/news/cointelegraph.svg" />
-        </a>
-        <!-- <v-image path="images/news/bloomberg.svg" /> -->
-        <a
-          href="https://yourstory.com/"
-          target="_blank"
-        >
-          <v-image path="images/news/yourstory.svg" />
-        </a>
-        <a href="https://www.entrepreneur.com/article/377102" target="_blank">
-          <v-image path="images/news/enterprenuer.svg" />
-        </a>
+        <v-image path="images/news/forbes.svg" />
+        <v-image path="images/news/bloomberg.svg" />
       </v-stack>
     </v-container>
   </section>
