@@ -81,95 +81,15 @@ export default {
       selectedInvestor: {},
       investors: [
         {
-          key: 'balaji',
-          name: 'Balaji Srinivasan',
-          image: 'images/investors/balaji.png',
+          key: 'investor1',
+          name: 'Investor One',
+          image: 'images/investors/investor1.png',
           desc: 'Investor, Skaina',
           cssClass: 'investor-balaji',
           orb: {
             color: 'red',
             style: 'right: 4%; top: 4%; width: 2rem',
           },
-        },
-        {
-          key: 'tamar',
-          name: 'Tamar Menteshashvili',
-          image: 'images/investors/tamar.png',
-          desc: 'Investor, Skaina',
-          cssClass: 'investor-tamar',
-          orb: {
-            color: 'red',
-            style: 'right: 10%; bottom: 15%; width: 1.2rem',
-          },
-        },
-        {
-          key: 'kendrick',
-          name: 'Kendrick Nguyen',
-          image: 'images/investors/kendrick.png',
-          desc: 'Investor, Skaina',
-          cssClass: 'investor-kendrick',
-          orb: {
-            color: 'yellow',
-            style: 'right: -25%; bottom: -25%; width: 3rem',
-          },
-        },
-        {
-          key: 'santiago',
-          name: 'Santiago Santos',
-          image: 'images/investors/santiago.png',
-          desc: 'Investor, Skaina',
-          cssClass: 'investor-santiago',
-          orb: {
-            color: 'yellow',
-            style: 'right: 3%; top: 3%; width: 2rem',
-          },
-        },
-        {
-          key: 'au21',
-          name: 'AU21 Capital',
-          image: 'images/investors/au21.png',
-          desc: 'Investor, Skaina',
-          cssClass: 'investor-au21',
-          orb: {
-            color: 'blue',
-            style: 'left: -75%; bottom: -50%; width: 2rem',
-          },
-        },
-        {
-          key: 'kenetic',
-          name: 'Kenetic Capital',
-          image: 'images/investors/kenetic.png',
-          desc: 'Investor, Skaina',
-          cssClass: 'investor-kenetic',
-          orb: {
-            color: 'blue',
-            style: 'right: -75%; top: -5%; width: 0.8rem',
-          },
-        },
-        {
-          key: 'john',
-          name: 'John Lilic',
-          image: 'images/investors/john.png',
-          desc: 'Investor, Skaina',
-          cssClass: 'investor-john',
-        },
-        {
-          key: 'aniket',
-          name: 'Aniket Jindal',
-          image: 'images/investors/aniket.png',
-          desc: 'Investor, Skaina',
-          cssClass: 'investor-aniket',
-          orb: {
-            color: 'yellow',
-            style: 'right: -50%; top: -75%; width: 4rem',
-          },
-        },
-        {
-          key: 'siddharth',
-          name: 'Siddharth Menon',
-          image: 'images/investors/siddharth.png',
-          desc: 'Investor, Skaina',
-          cssClass: 'investor-siddharth',
         },
       ],
     }
