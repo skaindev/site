@@ -47,15 +47,11 @@ const skainaDashboardUrl = process.env.skainaDashboardUrl
 
 export default {
   name: 'HeroSection',
-
-
   data() {
     return {
       isIntroPlaying: false,
       skainaUrl,
-      skainaDashboardUrl,
-
-     
+      skainaDashboardUrl,     
     }
   },
 
