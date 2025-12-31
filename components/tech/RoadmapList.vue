@@ -74,7 +74,7 @@ export default {
     return {
       selectedYear,
       roadmap: {
-        2021: [
+        2026: [
         {
             quarter: 'Quarter 1',
             milestones: [
@@ -100,122 +100,122 @@ export default {
             ],
           },
         ],
-        2022: [
-        {
-            quarter: 'Quarter 1',
-            milestones: [
-              'Skaina Mainnet launch ✔️',
-              'Whitepaper 1.0 release ✔️',
-              'The roadmap for 2022 revealed ✔️',
-              'Skaina community build - Airdrop ✔️',
-              ],
-          },
-          {
-            quarter: 'Quarter 2',
-            milestones: [
-              'Skaina 2.0 web wallet development ✔️',
-              'The new Skaina website development ✔️',
-              'Whitepaper for Skaina 2.0 release ✔️',
-              'NeatDocs documentation release ✔️',
-              ],
-          },
-          {
-            quarter: 'Quarter 3',
-            milestones: [
-              'New website 2.0 look redesign ✔️',
-              'AMA sesion with HedgePay project ✔️',
-              'Staking website gets a new look ✔️',
-              'Skaina 2.0 explorer redesign ✔️',
-              ],
-          },
-          {
-            quarter: 'Quarter 4',
-            milestones: [
-              'Finexbox CEX listing of $NEAT ✔️',
-              'Discord and telegram bots release ✔️',
-              'AMA sesion with AnyDAO project ✔️',
-              'December Quest Competition ✔️',
-              ],
-          },
-        ],
-        2023: [
-        {
-            quarter: 'Quarter 1',
-            milestones: [
-              '2023 Roadmap presentation ✔️',
-              'Skaina Blog development & launch ✔️',
-              'Bitcointalk bounty campaign start ✔️',
-              'Governance development & implementation ✔️',
-              ],
-          },
-          {
-            quarter: 'Quarter 2',
-            milestones: [
-              '$NEAT token contracts development ✔️',
-              'Crosschain bridge contracts development ✔️',              
-              '$NEAT listing on DEX exchange ✔️',
-              'Logo redesign for new $SKA network ✔️',
-              'Whitepaper for Skaina 3.0 development ✔️',
-              ],
-          },
-          {
-            quarter: 'Quarter 3',
-            milestones: [
-              'Skaina network 3.0 development start ✔️',
-              'The new website redesign and build ✔️',            
-              'Contracts deployment on Polygon ✔️',
-              'Uniswap v3 DEX $SKA token listing ✔️',
-              'Undergoing native $NEAT coin swap ✔️'
-              ],
-          },
-          {
-            quarter: 'Quarter 4',
-            milestones: [
-              'Complete native $NEAT coin swap ✔️',
-              'Skaina network 3.0 Testnet launch ✔️',
-              'Skaina network 3.0 Mainnet launch ✔️',
-              'New explorer for Skaina 3.0 development ✔️',
-              'All-in-one wallet platform development ✔️',
-              ],
-          },
-        ],
-        2024: [
-        {
-            quarter: 'Quarter 1',
-            milestones: [
-              'ETH <-> SKA bridge development 💫' ,              
-              'NioDEX development and launch 💫' ,
-              'Listing Skaina on CoinMarketCap 💫',
-              'Listing Skaina on CoinGecko 💫',
+        // 2027: [
+        // {
+        //     quarter: 'Quarter 1',
+        //     milestones: [
+        //       'Skaina Mainnet launch ✔️',
+        //       'Whitepaper 1.0 release ✔️',
+        //       'The roadmap for 2022 revealed ✔️',
+        //       'Skaina community build - Airdrop ✔️',
+        //       ],
+        //   },
+        //   {
+        //     quarter: 'Quarter 2',
+        //     milestones: [
+        //       'Skaina 2.0 web wallet development ✔️',
+        //       'The new Skaina website development ✔️',
+        //       'Whitepaper for Skaina 2.0 release ✔️',
+        //       'NeatDocs documentation release ✔️',
+        //       ],
+        //   },
+        //   {
+        //     quarter: 'Quarter 3',
+        //     milestones: [
+        //       'New website 2.0 look redesign ✔️',
+        //       'AMA sesion with HedgePay project ✔️',
+        //       'Staking website gets a new look ✔️',
+        //       'Skaina 2.0 explorer redesign ✔️',
+        //       ],
+        //   },
+        //   {
+        //     quarter: 'Quarter 4',
+        //     milestones: [
+        //       'Finexbox CEX listing of $SKA ✔️',
+        //       'Discord and telegram bots release ✔️',
+        //       'AMA sesion with AnyDAO project ✔️',
+        //       'December Quest Competition ✔️',
+        //       ],
+        //   },
+        // ],
+        // 2028: [
+        // {
+        //     quarter: 'Quarter 1',
+        //     milestones: [
+        //       '2023 Roadmap presentation ✔️',
+        //       'Skaina Blog development & launch ✔️',
+        //       'Bitcointalk bounty campaign start ✔️',
+        //       'Governance development & implementation ✔️',
+        //       ],
+        //   },
+        //   {
+        //     quarter: 'Quarter 2',
+        //     milestones: [
+        //       '$SKA token contracts development ✔️',
+        //       'Crosschain bridge contracts development ✔️',              
+        //       '$SKA listing on DEX exchange ✔️',
+        //       'Logo redesign for new $SKA network ✔️',
+        //       'Whitepaper for Skaina 3.0 development ✔️',
+        //       ],
+        //   },
+        //   {
+        //     quarter: 'Quarter 3',
+        //     milestones: [
+        //       'Skaina network 3.0 development start ✔️',
+        //       'The new website redesign and build ✔️',            
+        //       'Contracts deployment on Polygon ✔️',
+        //       'Uniswap v3 DEX $SKA token listing ✔️',
+        //       'Undergoing native $SKA coin swap ✔️'
+        //       ],
+        //   },
+        //   {
+        //     quarter: 'Quarter 4',
+        //     milestones: [
+        //       'Complete native $SKA coin swap ✔️',
+        //       'Skaina network 3.0 Testnet launch ✔️',
+        //       'Skaina network 3.0 Mainnet launch ✔️',
+        //       'New explorer for Skaina 3.0 development ✔️',
+        //       'All-in-one wallet platform development ✔️',
+        //       ],
+        //   },
+        // ],
+        // 2029: [
+        // // {
+        // //     quarter: 'Quarter 1',
+        // //     milestones: [
+        // //       'ETH <-> SKA bridge development 💫' ,              
+        // //       'NioDEX development and launch 💫' ,
+        // //       'Listing Skaina on CoinMarketCap 💫',
+        // //       'Listing Skaina on CoinGecko 💫',
                    
-              ],
-          },
-           {
-             quarter: 'Quarter 2',
-             milestones: [
-              'Asknio project development start 💫',
-              'Validator development and launch 💫' ,
-              'NFT integration (core update) 💫' ,
-              'NFTs marketplace launch 💫' ,  
-               ],
-           },
-          // {
-          //   quarter: 'Quarter 3',
-          //   milestones: [
-          //     'Skaina Milestone 1',
-          //     'Skaina Milestone 2',
-          //     'Skaina Milestone 3',
+        // //       ],
+        // //   },
+        //   //  {
+        //   //    quarter: 'Quarter 2',
+        //   //    milestones: [
+        //   //     'Asknio project development start 💫',
+        //   //     'Validator development and launch 💫' ,
+        //   //     'NFT integration (core update) 💫' ,
+        //   //     'NFTs marketplace launch 💫' ,  
+        //   //      ],
+        //   //  },
+        //   // {
+        //   //   quarter: 'Quarter 3',
+        //   //   milestones: [
+        //   //     'Skaina Milestone 1',
+        //   //     'Skaina Milestone 2',
+        //   //     'Skaina Milestone 3',
               
-          // },
-          // {
-          //   quarter: 'Quarter 4',
-          //   milestones: [
-          //     'Skaina Milestone 1',
-          //     'Skaina Milestone 2',
-          //     'Skaina Milestone 3',
-          //     ],
-          // },
-        ],
+        //   // },
+        //   // {
+        //   //   quarter: 'Quarter 4',
+        //   //   milestones: [
+        //   //     'Skaina Milestone 1',
+        //   //     'Skaina Milestone 2',
+        //   //     'Skaina Milestone 3',
+        //   //     ],
+        //   // },
+        // ],
       },
     }
   },
