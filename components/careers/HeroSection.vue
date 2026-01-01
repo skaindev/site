@@ -36,7 +36,7 @@
             class="joinus-btn"
             :action="openJoinUs"
           />
-        <!-- <div>
+        <div>
           <v-stack
             class="highlight"
             align="center"
@@ -69,7 +69,7 @@
               </v-text>
             </v-stack>
           </v-stack>
-        </div> -->
+        </div>
       </v-stack>
     </v-container>
   </section>
