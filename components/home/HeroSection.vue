@@ -22,7 +22,7 @@
                 <v-button label="WHITEPAPER" label-transform="uppercase" />
               </router-link>
                   <a
-                    href="https://discord.skaina.com"
+                    href="https://discord.gg/64wUyf78fN"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
