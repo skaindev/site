@@ -24,11 +24,11 @@ export default {
           name: 'About',
           link: '/about/',
         },
-        {
-          name: 'Discord',
-          link: 'https://discord.gg/64wUyf78fN',
-          external: true,
-        },
+        // {
+        //   name: 'Discord',
+        //   link: 'https://discord.gg/64wUyf78fN',
+        //   external: true,
+        // },
         {
            name: 'Github',
            link: 'https://github.com/skaindev',
@@ -36,16 +36,16 @@ export default {
          },
 
               {
-          name: 'Twitter',
+          name: 'X.com',
           link: 'https://x.com/skaina',
           external: true,
         },
         
-        {
-          name: 'Whitepaper',
-          link: 'https://skaina.com/whitepaper.pdf',
-          external: true,
-        },
+        // {
+        //   name: 'Whitepaper',
+        //   link: 'https://skaina.com/whitepaper.pdf',
+        //   external: true,
+        // },
       ],
     }
   },
