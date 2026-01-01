@@ -18,18 +18,22 @@
               class="hero-description"
             />
             <v-stack align="center" gap="1.5rem" sm-gap="1rem" wrap>
-              <router-link to="">
+              <router-link to="/whitepaper">
                 <v-button label="WHITEPAPER" label-transform="uppercase" />
               </router-link>
-              <router-link to="">
-                <v-button
-                  color="#000"
-                  variant="outline"
-                  label="DISCORD"
-                  label-transform="uppercase"
-                  class="secondary-button"
-                />
-              </router-link>
+                  <a
+                    href="http://discord.skaina.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <v-button
+                      color="#000"
+                      variant="outline"
+                      label="DISCORD"
+                      label-transform="uppercase"
+                      class="secondary-button"
+                    />
+                  </a>
             </v-stack>
           </v-stack>
         </v-stack>
