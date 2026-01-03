@@ -17,24 +17,32 @@
                Built for permanence. Engineered for truth. Powered by a decentralized network that protects your legacy — forever."
               class="hero-description"
             />
-            <v-stack align="center" gap="1.5rem" sm-gap="1rem" wrap>
-              <router-link to="/whitepaper">
-                <v-button label="WHITEPAPER" label-transform="uppercase" />
-              </router-link>
-                  <a
-                    href="https://discord.gg/64wUyf78fN"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <v-button
-                      color="#000"
-                      variant="outline"
-                      label="DISCORD"
-                      label-transform="uppercase"
-                      class="secondary-button"
-                    />
-                  </a>
-            </v-stack>
+                <v-stack align="center" gap="1.5rem" sm-gap="1rem" wrap>
+                  <div class="cta-button">
+
+                      <router-link to="/" custom v-slot="{ navigate, href }">
+                      <a :href="href" @click="navigate" class="cta-link">
+                        <v-button label="WHITEPAPER" />
+                      </a>
+                    </router-link>
+
+                  </div>
+
+                    <a
+                      href="https://discord.gg/64wUyf78fN"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="cta-link"
+                    >
+                      <v-button
+                        color="#5865F2"
+                        variant="outline"
+                        label="DISCORD"
+                      />
+                    </a>
+
+                </v-stack>
+
           </v-stack>
         </v-stack>
         <v-image
