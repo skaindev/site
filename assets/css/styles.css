@@ -46,6 +46,17 @@ body {
   overflow-x: hidden;
   min-height: 100vh;
 }
+.cta-button {
+  display: inline-flex;
+}
+.cta-link {
+  display: inline-flex;
+  pointer-events: auto;
+}
+
+.cta-link > * {
+  pointer-events: none;
+}
 
 
 .hero-section {
