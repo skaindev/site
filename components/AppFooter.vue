@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <v-container>
+    <v-container class="footer-container"  >
       <v-stack
         align="center"
         justify="space-around"
@@ -236,7 +236,9 @@ a {
   margin-top: 4rem;
 }
 
-
+.footer-container{
+  margin-bottom: 2rem;
+}
 
 .book-demo-description {
   max-width: 21rem;
