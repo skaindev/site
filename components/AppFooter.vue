@@ -27,7 +27,7 @@
               Email:
             </v-text>
           <a href="mailto:contact@skaina.com">
-            <v-text font="sans" :weight="600" class="footer-mailing">
+            <v-text font="sans" :weight="400" class="footer-mailing">
               hello@skaina.com
             </v-text>
           </a>
