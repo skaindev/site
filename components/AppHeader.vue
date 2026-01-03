@@ -20,32 +20,22 @@ export default {
         link: process.env.skainaDashboardUrl,
       },
       menuItems: [        
-      {
+       {
           name: 'About',
           link: '/about/',
         },
-        // {
-        //   name: 'Discord',
-        //   link: 'https://discord.gg/64wUyf78fN',
-        //   external: true,
-        // },
         {
            name: 'Github',
            link: 'https://github.com/skaindev',
            external: true,
          },
-
-              {
+        {
           name: 'X.com',
           link: 'https://x.com/SkainaTek',
           external: true,
         },
         
-        // {
-        //   name: 'Whitepaper',
-        //   link: 'https://skaina.com/whitepaper.pdf',
-        //   external: true,
-        // },
+
       ],
     }
   },
