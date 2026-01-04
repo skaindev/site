@@ -31,7 +31,7 @@ export default {
          },
         {
           name: 'X.com',
-          link: 'https://x.com/SkainaTek',
+          link: 'https://x.com/xSkaina',
           external: true,
         },       
 
