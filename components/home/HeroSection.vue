@@ -80,7 +80,7 @@ export default {
 
   @media (--viewport-small) {
     padding: 10px 0 !important;
-    margin-top: 0 !important;
+    margin-top: 6 !important;
   }
 }
 
