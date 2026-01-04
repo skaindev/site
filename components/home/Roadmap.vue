@@ -37,7 +37,7 @@ export default {
 @import url('../lib/media-query-helper.css');
 
 section {
-  margin-top: 0 !important;
+  margin-top: 6 !important;
   padding: 6rem 0 0;
   color: black;
   background-color: #fff;
