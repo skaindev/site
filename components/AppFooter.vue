@@ -23,7 +23,7 @@
       >
 
         <v-stack direction="column">
-          <v-text font="sans" :weight="400" class="get-in-touch">
+          <v-text font="sans" :weight="600" class="get-in-touch">
               Email:
             </v-text>
           <a href="mailto:contact@skaina.com">
