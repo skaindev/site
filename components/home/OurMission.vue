@@ -3,7 +3,7 @@
     <v-container>
       <app-section-descriptor
         title="CONTACT"
-        heading="Get In Touch"
+        heading="Get In Touchhh"
         style="max-width: 60rem"
       />
 
