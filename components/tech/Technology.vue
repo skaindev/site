@@ -231,7 +231,7 @@ export default {
 
 section {
   @media (--viewport-small) {
-    margin-top: 0 !important;
+    margin-top: 6 !important;
   }
 }
 
