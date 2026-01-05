@@ -38,8 +38,8 @@
                     at Skaina. Currently we do not have any open
                     positions, however if you are interested in possible future
                     opportunities please send your CV to
-                    <a href="mailto:contact@skaina.com" class="mail-link"
-                      >contact@skaina.com</a
+                    <a href="mailto:hello@skaina.com" class="mail-link"
+                      >hello@skaina.com</a
                     >.</v-text
                   >
                 </v-stack>
