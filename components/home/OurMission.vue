@@ -14,16 +14,16 @@ style="text-align: left;" />
 
       <app-section-descriptor
             description="Skaina is more than a blockchain — it is a digital vault for humanity’s most valuable information.
-A platform where truth is permanent, documents live forever, and legacy becomes unbreakable."
-style="text-align: left;" />
-<div class="spc"></div>
+          A platform where truth is permanent, documents live forever, and legacy becomes unbreakable."
+          style="text-align: left;" />
+          <div class="spc"></div>
 
 
 
-<app-section-descriptor
-            description="Security is also at the core of our mission. Traditional payment methods have often fallen victim to security breaches and data theft, exposing individuals and businesses to significant risks. Skaina tackles this challenge head-on by implementing robust security measures, leveraging the immutability and transparency of blockchain technology. Our users can have peace of mind, knowing that their transactions are protected by state-of-the-art cryptographic protocols and secure decentralized networks."
-style="text-align: left;" />
-<div class="spc"></div>
+        <app-section-descriptor
+                    description="Security is also at the core of our mission. Traditional payment methods have often fallen victim to security breaches and data theft, exposing individuals and businesses to significant risks. Skaina tackles this challenge head-on by implementing robust security measures, leveraging the immutability and transparency of blockchain technology. Our users can have peace of mind, knowing that their transactions are protected by state-of-the-art cryptographic protocols and secure decentralized networks."
+        style="text-align: left;" />
+        <div class="spc"></div>
 
 <app-section-descriptor
             description="Privacy is another aspect we prioritize. We understand the importance of personal and financial privacy in an increasingly interconnected world. Skaina empowers individuals and businesses to maintain their privacy by minimizing the collection and exposure of sensitive data. Through our platform, users can conduct transactions with confidence, knowing that their personal information is safeguarded."
