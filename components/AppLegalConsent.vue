@@ -1,20 +1,19 @@
 <template>
-  <div v-if="show" class="legal-banner">
-    <div class="legal-content">
-      <p>
-        By using this website, you agree to our
-        <NuxtLink to="/terms">Terms & Conditions</NuxtLink>
-        and
-        <NuxtLink to="/privacy">Privacy Policy</NuxtLink>.
-      </p>
-
-        <button class="legal-btn" @click="accept">
-        Accept
-        </button>
-
+  <client-only>
+    <div v-if="show" class="legal-banner">
+      <div class="legal-content">
+        <p>
+          By using this website, you agree to our
+          <NuxtLink to="/terms">Terms & Conditions</NuxtLink>
+          and
+          <NuxtLink to="/privacy">Privacy Policy</NuxtLink>.
+        </p>
+        <button class="legal-btn" @click="accept">Accept</button>
+      </div>
     </div>
-  </div>
+  </client-only>
 </template>
+
 
 <script>
 export default {
