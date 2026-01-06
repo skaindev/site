@@ -1,22 +1,22 @@
 <template>
   <div>
-    <main v-if="error.statusCode === 404">
-      <AppHeader />
-      <PageNotFound />
-    </main>
-    <main v-else>
-      <v-heading>An error occurred</v-heading>
-    </main>
+    <AppHeader />
+    <Nuxt />
+    <AppFooter />
+    <AppLegalConsent />
   </div>
 </template>
 
 <script>
+import AppHeader from '@/components/AppHeader.vue'
+import AppFooter from '@/components/AppFooter.vue'
+import AppLegalConsent from '@/components/AppLegalConsent.vue'
+
 export default {
-  props: {
-    error: {
-      type: Object,
-      required: true
-    }
+  components: {
+    AppHeader,
+    AppFooter,
+    AppLegalConsent
   }
 }
 </script>
