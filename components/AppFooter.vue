@@ -11,7 +11,7 @@
          <app-section-descriptor
         title="Contact"
         class="get-in"
-        heading="GET IN TOUCH"
+        heading="GET IN TOUCHhh"
       
         style="max-width: 64rem"
       />
@@ -30,8 +30,14 @@
             <v-text font="sans" :weight="400" class="footer-mailing">
               hello@skaina.com
             </v-text>
+            
           </a>
-         
+               <app-section-descriptor
+            description="Skaina is more than a blockchain — it is a digital vault for humanity’s most valuable information.
+          A platform where truth is permanent, documents live forever, and legacy becomes unbreakable."
+          style="text-align: left;" />
+          <div class="spc"></div>
+
           <!-- <v-stack style="margin-top: 3rem" md-justify="space-evenly">
             <a href="https://twitter.com/Skaina_net" target="_blank">
               <v-image
