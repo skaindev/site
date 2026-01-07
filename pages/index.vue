@@ -2,16 +2,15 @@
   <main>
     <HomeHeroSection />
     <HomeOurServices />
-    <HomeContactUs />
     <!-- <HomeRoadmap /> -->
-    <AppFooter />
+    <!-- <AppFooter /> -->
   </main>
 </template>
 
 <script>
 
 export default {
-  // layout: 'page',
+  layout: 'page',
 }
 </script>
 
