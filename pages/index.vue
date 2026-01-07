@@ -10,7 +10,7 @@
 <script>
 
 export default {
-  layout: 'page',
+  // layout: 'page',
 }
 </script>
 
