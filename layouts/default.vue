@@ -25,12 +25,11 @@ export default {
 </script>
 
 <style>
-/* IMPORTANT: do NOT add transform here */
+
 #layout-root {
   position: static;
 }
 
-/* App shell may have layout / transforms */
 #app-shell {
   position: relative;
 }
