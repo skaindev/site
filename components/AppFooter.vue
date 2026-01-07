@@ -11,7 +11,7 @@
          <app-section-descriptor
         title="Contact"
         class="get-in"
-        heading="GET IN TOUCHhh"
+        heading="GET IN TOUCH"
       
         style="max-width: 64rem"
       />
