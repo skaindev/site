@@ -35,7 +35,7 @@
           <v-stack style="margin-top: 3rem" md-justify="space-evenly">
             <a href="https://twitter.com/Skaina_net" target="_blank">
               <v-image
-                path=""
+                path="images/social/twitter.png"
                 class="footer-social-link"
                 alt="Skaina Twitter"
               />
@@ -47,7 +47,7 @@
               target="_blank"
             >
               <v-image
-                path=""
+                path="images/social/discord.png"
                 class="footer-social-link"
                 alt="Skaina Discord"
               />
@@ -59,7 +59,7 @@
             >
               <v-image
                 style="height: 44px; width: auto;"
-                path=""
+                path="images/social/telegram.png"
                 class="footer-social-link"
                 alt="Skaina Telegram"
               />
