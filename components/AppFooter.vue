@@ -89,10 +89,10 @@
         >
 
           <v-stack direction="column" class="footer-links">
-            <!-- <a href=""><v-text></v-text></a>
+            <a href=""><v-text></v-text></a>
             <a href="/about/"><v-text>About</v-text></a>
-            <a href="https://blog.skaina.com"><v-text>Blogger</v-text></a> -->
-            <!-- <a href="/careers/"><v-text>Careers</v-text></a> -->
+            <a href="https://blog.skaina.com"><v-text>Blogger</v-text></a>
+            <a href="/careers/"><v-text>Careers</v-text></a>
 
           </v-stack>
               <v-image class="footer-orbs" path="images/footer-orbs.svg" />
