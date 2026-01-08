@@ -32,10 +32,10 @@
             </v-text>
           </a>
          
-          <!-- <v-stack style="margin-top: 3rem" md-justify="space-evenly">
+          <v-stack style="margin-top: 3rem" md-justify="space-evenly">
             <a href="https://twitter.com/Skaina_net" target="_blank">
               <v-image
-                path="images/social/twitter.png"
+                path=""
                 class="footer-social-link"
                 alt="Skaina Twitter"
               />
@@ -47,7 +47,7 @@
               target="_blank"
             >
               <v-image
-                path="images/social/discord.png"
+                path=""
                 class="footer-social-link"
                 alt="Skaina Discord"
               />
@@ -59,7 +59,7 @@
             >
               <v-image
                 style="height: 44px; width: auto;"
-                path="images/social/telegram.png"
+                path=""
                 class="footer-social-link"
                 alt="Skaina Telegram"
               />
@@ -77,7 +77,7 @@
               />
             </a>
 
-          </v-stack> -->
+          </v-stack>
  
         </v-stack>
 
@@ -89,10 +89,10 @@
         >
 
           <v-stack direction="column" class="footer-links">
-            <a href=""><v-text></v-text></a>
+            <!-- <a href=""><v-text></v-text></a>
             <a href="/about/"><v-text>About</v-text></a>
-            <a href="https://blog.skaina.com"><v-text>Blogger</v-text></a>
-            <a href="/careers/"><v-text>Careers</v-text></a>
+            <a href="https://blog.skaina.com"><v-text>Blogger</v-text></a> -->
+            <!-- <a href="/careers/"><v-text>Careers</v-text></a> -->
 
           </v-stack>
               <v-image class="footer-orbs" path="images/footer-orbs.svg" />
