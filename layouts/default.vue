@@ -5,20 +5,20 @@
     <div id="app-shell">
       <AppHeader />
       <Nuxt />
-      <AppFooter />
+      <!-- <AppFooter /> -->
     </div>
   </div>
 </template>
 
 <script>
 import AppHeader from '@/components/AppHeader.vue'
-import AppFooter from '@/components/AppFooter.vue'
+// import AppFooter from '@/components/AppFooter.vue'
 import AppLegalConsent from '@/components/AppLegalConsent.vue'
 
 export default {
   components: {
     AppHeader,
-    AppFooter,
+    // AppFooter,
     AppLegalConsent
   }
 }
