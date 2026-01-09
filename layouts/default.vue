@@ -1,36 +1,22 @@
 <template>
-  <div id="layout-root">
-    <AppLegalConsent />
-
-    <div id="app-shell">
-      <AppHeader />
-      <Nuxt />
-      <!-- <AppFooter /> -->
-    </div>
+  <div class="app">
+    <AppBanner />
+    <AppHeader />
+    <Nuxt />
+    <AppCopyright />
   </div>
 </template>
 
 <script>
+import AppBanner from '@/components/AppBanner.vue'
 import AppHeader from '@/components/AppHeader.vue'
-// import AppFooter from '@/components/AppFooter.vue'
-import AppLegalConsent from '@/components/AppLegalConsent.vue'
+import AppCopyright from '@/components/AppCopyright.vue'
 
 export default {
   components: {
+    AppBanner,
     AppHeader,
-    // AppFooter,
-    AppLegalConsent
+    AppCopyright
   }
 }
 </script>
-
-<style>
-
-#layout-root {
-  position: static;
-}
-
-#app-shell {
-  position: relative;
-}
-</style>
