@@ -1,27 +1,22 @@
 <template>
-  <main>
-    <HomeHeroSection />
-    <HomeOurServices />
-    <!-- <HomeRoadmap /> -->
-    <AppFooter />
-  </main>
+  <div class="app">
+    <AppBanner />
+    <AppHeader />
+    <Nuxt />
+    <AppCopyright />
+  </div>
 </template>
 
 <script>
+import AppBanner from '@/components/AppBanner.vue'
+import AppHeader from '@/components/AppHeader.vue'
+import AppCopyright from '@/components/AppCopyright.vue'
 
 export default {
-   layout: 'page',
+  components: {
+    AppBanner,
+    AppHeader,
+    AppCopyright
+  }
 }
 </script>
-
-<style lang="css" scoped>
-@import url('../components/lib/media-query-helper.css');
-
-main {
-  overflow-x: hidden;
-}
-
-main > * {
-  margin-top: 6rem;
-}
-</style>
