@@ -3,20 +3,32 @@
     <AppBanner />
     <AppHeader />
     <Nuxt />
+    <AppLegalConsent />
     <AppCopyright />
   </div>
 </template>
 
 <script>
-import AppBanner from '@/components/AppBanner.vue'
 import AppHeader from '@/components/AppHeader.vue'
-import AppCopyright from '@/components/AppCopyright.vue'
+// import AppFooter from '@/components/AppFooter.vue'
+import AppLegalConsent from '@/components/AppLegalConsent.vue'
 
 export default {
   components: {
-    AppBanner,
     AppHeader,
-    AppCopyright
+    // AppFooter,
+    AppLegalConsent
   }
 }
 </script>
+
+<style>
+
+#layout-root {
+  position: static;
+}
+
+#app-shell {
+  position: relative;
+}
+</style>
