@@ -1,27 +1,19 @@
 <template>
-  <main>
-    <HomeHeroSection />
-    <HomeOurServices />
-    <!-- <HomeRoadmap /> -->
-    <AppFooter />
-  </main>
+  <div id="layout-root">
+    <AppLegalConsent />
+
+    <div id="app-shell">
+      <Nuxt />
+    </div>
+  </div>
 </template>
 
 <script>
+import AppLegalConsent from '@/components/AppLegalConsent.vue'
 
 export default {
-   layout: 'page',
+  components: {
+    AppLegalConsent
+  }
 }
 </script>
-
-<style lang="css" scoped>
-@import url('../components/lib/media-query-helper.css');
-
-main {
-  overflow-x: hidden;
-}
-
-main > * {
-  margin-top: 6rem;
-}
-</style>
