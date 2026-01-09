@@ -3,14 +3,14 @@
     <HomeHeroSection />
     <HomeOurServices />
     <!-- <HomeRoadmap /> -->
-    <!-- <AppFooter /> -->
+    <AppFooter />
   </main>
 </template>
 
 <script>
 
 export default {
-  // layout: 'page',
+   layout: 'page',
 }
 </script>
 
