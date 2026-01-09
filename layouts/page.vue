@@ -1,11 +1,9 @@
 <template>
-  <div class="app">
-    <AppBanner />
-    <AppHeader />
-    <Nuxt />
-    <!-- <AppFooter class="footer" /> -->
-    <AppCopyright />
-  </div>
+  <main>
+    <HomeHeroSection />
+    <HomeOurServices />
+    <HomeContactUs />
+  </main>
 </template>
 
 <style scoped>
