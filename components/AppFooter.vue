@@ -32,7 +32,7 @@
             </v-text>
           </a>
          
-          <v-stack style="margin-top: 3rem" md-justify="space-evenly">
+          <!-- <v-stack style="margin-top: 3rem" md-justify="space-evenly">
             <a href="https://twitter.com/Skaina_net" target="_blank">
               <v-image
                 path="images/social/twitter.png"
@@ -77,7 +77,7 @@
               />
             </a>
 
-          </v-stack>
+          </v-stack> -->
  
         </v-stack>
 
