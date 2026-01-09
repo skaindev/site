@@ -1,35 +1,27 @@
 <template>
-  <div id="layout-root">
-    <AppLegalConsent />
-
-    <div id="app-shell">
-      <AppHeader />
-      <Nuxt />
-      <AppFooter />
-    </div>
-  </div>
+  <main>
+    <HomeHeroSection />
+    <HomeOurServices />
+    <!-- <HomeRoadmap /> -->
+    <AppFooter />
+  </main>
 </template>
 
 <script>
-import AppHeader from '@/components/AppHeader.vue'
-import AppFooter from '@/components/AppFooter.vue'
-import AppLegalConsent from '@/components/AppLegalConsent.vue'
 
 export default {
-  components: {
-    AppHeader,
-    AppFooter,
-    AppLegalConsent
-  }
+   layout: 'page',
 }
 </script>
 
-<style>
-#layout-root {
-  position: static;
+<style lang="css" scoped>
+@import url('../components/lib/media-query-helper.css');
+
+main {
+  overflow-x: hidden;
 }
 
-#app-shell {
-  position: relative;
+main > * {
+  margin-top: 6rem;
 }
 </style>
