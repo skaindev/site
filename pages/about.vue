@@ -1,6 +1,7 @@
 <template>
   <main>
-    <AboutOurTeam />
+    <!-- <AboutOurTeam /> -->
+    <HomeOurServices />
     <AboutJoinUs />
   </main>
 </template>
