@@ -141,7 +141,7 @@ header {
 }
 
 .active-link > span {
-  color: #fff;
+  color: #00e1ff;
 }
 
 .cta-button-container {
