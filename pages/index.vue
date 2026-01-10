@@ -1,7 +1,7 @@
 <template>
   <main>
     <HomeHeroSection />
-    <HomeOurServices />
+    <!-- <HomeOurServices /> -->
     <!-- <HomeRoadmap /> -->
     <!-- <AppFooter /> -->
   </main>
