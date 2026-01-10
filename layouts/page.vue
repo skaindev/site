@@ -1,10 +1,7 @@
 <template>
-  <main>
-    <HomeHeroSection />
-    <HomeOurServices />
-    <HomeContactUs />
-  </main>
+  <Nuxt />
 </template>
+
 
 <style scoped>
 .footer {
