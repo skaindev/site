@@ -1,8 +1,9 @@
 <template>
   <main>
+    <AppHeader />
     <!-- <AboutOurTeam /> -->
     <HomeOurServices />
-    <AboutJoinUs />
+    <!-- <AboutJoinUs /> -->
   </main>
 </template>
 
@@ -26,7 +27,7 @@ main {
 }
 
 main > * {
-  margin-top: 6rem;
+  margin-top: 0.1rem;
 
   @media (--viewport-medium) {
     margin-top: 4rem;
