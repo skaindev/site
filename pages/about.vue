@@ -3,7 +3,9 @@
     <AppHeader />
     <!-- <AboutOurTeam /> -->
     <HomeOurServices />
-    <AboutJoinUs />
+    <!-- <AboutJoinUs /> -->
+    <AppFooter />
+    
   </main>
 </template>
 
