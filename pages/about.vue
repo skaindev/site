@@ -3,7 +3,7 @@
     <AppHeader />
     <!-- <AboutOurTeam /> -->
     <HomeOurServices />
-    <!-- <AboutJoinUs /> -->
+    <AboutJoinUs />
   </main>
 </template>
 
