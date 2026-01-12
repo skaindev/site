@@ -5,9 +5,10 @@
     <AppBanner />
     <AppHeader />
 
-    <Nuxt />
+    <main class="main-content">
+      <Nuxt />
+    </main>
 
-    <!-- <AppFooter /> -->
     <AppCopyright />
   </div>
 </template>
@@ -15,7 +16,6 @@
 <script>
 import AppBanner from '@/components/AppBanner.vue'
 import AppHeader from '@/components/AppHeader.vue'
-// import AppFooter from '@/components/AppFooter.vue'
 import AppCopyright from '@/components/AppCopyright.vue'
 import AppLegalConsent from '@/components/AppLegalConsent.vue'
 
@@ -23,21 +23,20 @@ export default {
   components: {
     AppBanner,
     AppHeader,
-    // AppFooter,
     AppCopyright,
     AppLegalConsent
   }
 }
 </script>
 
-
 <style>
-
 #layout-root {
-  position: static;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* make page fill the viewport */
 }
 
-#app-shell {
-  position: relative;
+.main-content {
+  flex: 1; /* take remaining space between header/banner and copyright */
 }
 </style>
