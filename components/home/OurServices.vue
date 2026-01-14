@@ -50,23 +50,13 @@ style="text-align: left;" />
                 color="secondary"
                 line-height="1.5"
                 class="feature-description-text"
-              >     
-              <ul>
-      <li> Data Protection: Uses advanced encryption to secure data at rest and in transit.</li>
-      <li>Access Control: Role-based authentication ensures only authorized users can access sensitive data.</li>
-      <li>Threat Resistance: Defends against tampering, spoofing, and unauthorized access.</li>
-
-    </ul>  
-             
-
-
-
-              </v-text>
-                           
-
-  
-
-
+               >     
+               <ul>
+                  <li> Data Protection: Uses advanced encryption to secure data at rest and in transit.</li>
+                  <li>Access Control: Role-based authentication ensures only authorized users can access sensitive data.</li>
+                  <li>Threat Resistance: Defends against tampering, spoofing, and unauthorized access.</li>
+                </ul>
+              </v-text>          
             </div>
           </div>
         </v-stack>
@@ -80,25 +70,20 @@ style="text-align: left;" />
           <div class="overview-feature">
             <div>
               <v-heading :level="2" class="overview-feature-title">
-                Privacy
-             
+                Privacy             
               </v-heading>
-
-            </div>
-            
+            </div>            
             <div class="overview-feature-description">
               <v-text
                 color="secondary"
                 line-height="1.5"
                 class="feature-description-text"
-              >                 <ul>
-      <li> User-Controlled Data: Users manage what data they share and with whom.</li>
-      <li>Confidential Transactions: Sensitive actions are performed without exposing underlying data.</li>
-      <li>Minimal Exposure: The system reduces unnecessary data collection and sharing.</li>
-
-    </ul>  
-
-                    </v-text>
+               >                 <ul>
+                <li> User-Controlled Data: Users manage what data they share and with whom.</li>
+                <li>Confidential Transactions: Sensitive actions are performed without exposing underlying data.</li>
+                <li>Minimal Exposure: The system reduces unnecessary data collection and sharing.</li>
+               </ul>  
+              </v-text>
             </div>
           </div>
           <div class="icon-container">
@@ -132,13 +117,12 @@ style="text-align: left;" />
                 color="secondary"
                 line-height="1.5"
                 class="feature-description-text"
-              >
-                             <ul>
-      <li> Tamper-Proof Records: Once data is recorded, it cannot be modified or deleted without detection.</li>
-      <li>Audit Trail: Every change or transaction generates a cryptographic record, enabling full traceability.</li>
-      <li>Data Integrity: Guarantees that historical data remains intact and verifiable, critical for compliance and trust.</li>
-
-    </ul>     
+               >
+                <ul>
+                  <li> Tamper-Proof Records: Once data is recorded, it cannot be modified or deleted without detection.</li>
+                  <li>Audit Trail: Every change or transaction generates a cryptographic record, enabling full traceability.</li>
+                  <li>Data Integrity: Guarantees that historical data remains intact and verifiable, critical for compliance and trust.</li>
+                </ul>     
               </v-text>
               
             </div>
