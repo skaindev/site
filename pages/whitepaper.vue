@@ -116,7 +116,14 @@ export default {
 </script>
 
 <style scoped>
-/* GENERAL STYLES FIRST */
+.whitepaper-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  gap: 2rem;
+}
+
 .whitepaper-page {
   flex: 1;
   font-family: "Inter", sans-serif;
@@ -140,25 +147,9 @@ export default {
   color: #333;
 }
 
-.whitepaper-page ul {
-  padding-left: 1.2rem;
-  margin-top: 0.5rem;
-}
 
-.whitepaper-page ul li {
-  margin-bottom: 0.5rem;
-}
 
-/* WHITE PAPER CONTAINER */
-.whitepaper-container {
-  display: flex;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem;
-  gap: 2rem;
-}
-
-/* STICKY TABLE OF CONTENTS */
+/* Sticky Table of Contents */
 .toc {
   flex: 0 0 250px;
   position: sticky;
