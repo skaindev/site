@@ -20,7 +20,7 @@
                 <v-stack align="center" gap="1.5rem" sm-gap="1rem" wrap>
                   <div class="cta-button">
 
-                      <router-link to="/" custom v-slot="{ navigate, href }">
+                      <router-link to="/whitepaper" custom v-slot="{ navigate, href }">
                       <a :href="href" @click="navigate" class="cta-link">
                         <v-button label="WHITEPAPER" />
                       </a>
