@@ -4,12 +4,14 @@
     <aside class="toc">
       <h3>Table of Contents</h3>
       <ul>
-        <li 
-          v-for="(section, index) in whitepaperSections" 
+        <li
+          v-for="(section, index) in whitepaperSections"
           :key="index"
           :class="{ active: activeSection === index }"
         >
-          <a href="#" @click.prevent="scrollToSection(index)">{{ section.title }}</a>
+          <a href="#" @click.prevent="scrollToSection(index)">
+            {{ section.title }}
+          </a>
         </li>
       </ul>
     </aside>
@@ -33,7 +35,6 @@
 
 <script>
 export default {
-  name: "WhitepaperPageWithTOC",
   data() {
     return {
       activeSection: 0,
@@ -44,7 +45,7 @@ export default {
         },
         {
           title: "2. Vision & Mission",
-          content: `<strong>Vision:</strong> A world where no essential document, proof, or record can ever disappear...`
+          content: `<strong>Vision:</strong> A world where no essential document can ever disappear...`
         },
         {
           title: "3. Core Principles",
@@ -88,7 +89,7 @@ export default {
   mounted() {
     window.addEventListener("scroll", this.handleScroll, { passive: true });
   },
-  beforeUnmount() {
+  beforeDestroy() {
     window.removeEventListener("scroll", this.handleScroll);
   },
   methods: {
@@ -115,6 +116,40 @@ export default {
 </script>
 
 <style scoped>
+/* GENERAL STYLES FIRST */
+.whitepaper-page {
+  flex: 1;
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+  color: #1c1c1c;
+}
+
+.whitepaper-section + .whitepaper-section {
+  margin-top: 2.5rem;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #111;
+}
+
+.section-text {
+  font-size: 1rem;
+  color: #333;
+}
+
+.whitepaper-page ul {
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.whitepaper-page ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* WHITE PAPER CONTAINER */
 .whitepaper-container {
   display: flex;
   max-width: 1200px;
@@ -123,7 +158,7 @@ export default {
   gap: 2rem;
 }
 
-/* Sticky Table of Contents */
+/* STICKY TABLE OF CONTENTS */
 .toc {
   flex: 0 0 250px;
   position: sticky;
@@ -160,38 +195,5 @@ export default {
 .toc li.active a {
   font-weight: 700;
   color: #007bff;
-}
-
-/* Main content */
-.whitepaper-page {
-  flex: 1;
-  font-family: "Inter", sans-serif;
-  line-height: 1.6;
-  color: #1c1c1c;
-}
-
-.whitepaper-section + .whitepaper-section {
-  margin-top: 2.5rem;
-}
-
-.section-title {
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  color: #111;
-}
-
-.section-text {
-  font-size: 1rem;
-  color: #333;
-}
-
-ul {
-  padding-left: 1.2rem;
-  margin-top: 0.5rem;
-}
-
-ul li {
-  margin-bottom: 0.5rem;
 }
 </style>
