@@ -187,4 +187,14 @@ export default {
   font-weight: 700;
   color: #007bff;
 }
+
+.whitepaper-page ul {
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.whitepaper-page ul li {
+  margin-bottom: 0.5rem;
+}
+
 </style>
