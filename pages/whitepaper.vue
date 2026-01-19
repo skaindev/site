@@ -48,11 +48,12 @@ export default {
           content: `
             <p><strong>Vision:</strong> A world where no essential document can ever disappear.</p>
             <p><strong>Mission:</strong> To provide a decentralized, censorship-resistant ledger capable of storing and validating information for centuries.</p>
-          `
+            <p>Skaina is not just a blockchain — it is a permanent vault of truth.</p>         
+            `
         },
         {
           title: "3. Core Principles",
-          content: `<ul><li><strong>Permanence:</strong> Once stored, data cannot be removed...</li></ul>`
+          content: `<ul><li><strong>Permanence:</strong> Once stored, data cannot be removed or altered.</li></ul>`
         },
         {
           title: "4. Architecture Overview",
