@@ -53,7 +53,13 @@ export default {
         },
         {
           title: "3. Core Principles",
-          content: `<ul><li><strong>Permanence:</strong> Once stored, data cannot be removed or altered.</li></ul>`
+          content: `<ul>
+                      <li><strong>Permanence:</strong> Once stored, data cannot be removed or altered.</li>
+                      <li><strong>Integrity:</strong> Every block and transaction is cryptographically verifiable.</li>
+                      <li><strong>Neutrality:</strong> No centralized authority can censor, modify, or intercept data.</li>
+                      <li><strong>Longevity:</strong> Designed for decades-long sustainability of the blockchain.</li>
+                      <li><strong>Utility:</strong> Supports both secure data anchoring and fast, decentralized payments.</li>         
+                    </ul>`
         },
         {
           title: "4. Architecture Overview",
