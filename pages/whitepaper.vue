@@ -41,7 +41,7 @@ export default {
       whitepaperSections: [
         {
           title: "1. Abstract",
-          content: `Skaina is a next-generation blockchain designed to permanently preserve information...`
+          content: `Skaina is a next-generation blockchain designed to permanently preserve information that must never be lost, altered, or destroyed. Unlike conventional blockchains focused purely on financial transactions, Skaina is optimized for immutable data anchoring, decentralized timestamping, and verifiable proof-of-truth. It serves as a digital monument to human knowledge, capable of storing intellectual property, legal documents, certifications, medical records, digital identity, and long-term archives.`
         },
         {
           title: "2. Vision & Mission",
