@@ -45,7 +45,10 @@ export default {
         },
         {
           title: "2. Vision & Mission",
-          content: `<strong>Vision:</strong> A world where no essential document can ever disappear...`
+          content: `
+            <p><strong>Vision:</strong> A world where no essential document can ever disappear.</p>
+            <p><strong>Mission:</strong> To provide a decentralized, censorship-resistant ledger capable of storing and validating information for centuries.</p>
+          `
         },
         {
           title: "3. Core Principles",
