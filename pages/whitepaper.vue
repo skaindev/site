@@ -66,13 +66,20 @@ export default {
           content: `Skaina employs a layered architecture to balance speed, security, and storage efficiency:<br/>
                     Layer 1 – Core Blockchain:<br/>
                     Built on Tendermint Core<br/>
-                    Hybrid PoS + dBFT consensus<br/>
+                    Hybrid <strong>PoS + dBFT</strong> consensus<br/>
                     Instant finality for confirmed blocks<br/>
                     Handles block validation, transaction settlement, and network security<br/>`
         },
         {
           title: "5. Consensus & Blockchain Parameters",
-          content: `Consensus Engine: Tendermint Core...`
+          content: `<strong>Consensus Engine:</strong>  Tendermint Core, combining PoS and dBFT;<br/>
+                    <strong>Block Time:</strong>  2 seconds;<br/>
+                    <strong>Block Size:</strong>  Up to 20 MB;<br/>
+                    <strong>Validators:</strong>  Up to 51;<br/>
+                    <strong>Minimum Stake per Validator:</strong>  5,000,000 SKA;<br/>
+                    <strong>Validator Rotation:</strong>  Yes, no slashing penalties;<br/>
+                    <strong>Finality:</strong> Instant block finality ensures irreversible transactions.<br/>
+                      `
         },
         {
           title: "6. Tokenomics",
