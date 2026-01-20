@@ -63,7 +63,25 @@ export default {
         },
         {
           title: "4. Architecture Overview",
-          content: `Layer 1 – Core Blockchain...<br/>Layer 2 – Data Anchoring & Proof Layer...`
+          content: `Skaina employs a layered architecture to balance speed, security, and storage efficiency:
+
+Layer 1 – Core Blockchain:
+
+Built on Tendermint Core
+
+Hybrid PoS + dBFT consensus
+
+Instant finality for confirmed blocks
+
+Handles block validation, transaction settlement, and network security
+
+Layer 2 – Data Anchoring & Proof Layer:
+
+Provides permanent document proofs and metadata anchoring
+
+Designed for lightweight on-chain storage
+
+(Details about document handling and encryption will be provided in Whitepaper 2.0)`
         },
         {
           title: "5. Consensus & Blockchain Parameters",
