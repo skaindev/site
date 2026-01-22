@@ -81,7 +81,15 @@ export default {
         },
         {
           title: "6. Tokenomics",
-          content: `Native Token: SKA...`
+          content: `Native Token: SKA<br/><br/>
+                    <strong>Supply & Distribution:</strong><br/>
+                    Total Supply: 1,000,000,000 SKA (fixed)<br/>
+                    Premine: 25% allocated for initial development, partnerships, and early incentives<br/>
+                    Emission: 75% distributed via block rewards over 20 years<br/>
+                    Block Reward: 2.375 SKA per block<br/>
+
+                    Detailed allocation and vesting schedules will be transparently disclosed prior to mainnet launch.
+                    `
         },
         {
           title: "7. Use Cases",
