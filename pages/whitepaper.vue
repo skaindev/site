@@ -53,7 +53,7 @@ export default {
         },
         {
           title: "3. Core Principles",
-          content: `<ul>
+          content: `<ul class="bullet-list">
                       <li><strong>Permanence:</strong> Once stored, data cannot be removed or altered.</li>
                       <li><strong>Integrity:</strong> Every block and transaction is cryptographically verifiable.</li>
                       <li><strong>Neutrality:</strong> No centralized authority can censor, modify, or intercept data.</li>
@@ -79,18 +79,23 @@ export default {
                     <strong>Validator Rotation:</strong>  Yes, no slashing penalties.<br/>
                       `
         },
-        {
-          title: "6. Tokenomics",
-          content: `Native Token: SKA<br/><br/>
-                    <strong>Supply & Distribution:</strong><br/>
-                    Total Supply: 1,000,000,000 SKA (fixed)<br/>
-                    Premine: 25% allocated for initial development, partnerships, and early incentives<br/>
-                    Emission: 75% distributed via block rewards over 20 years<br/>
-                    Block Reward: 2.375 SKA per block<br/>
+            {
+              title: "6. Tokenomics",
+              content: `
+                <p><strong>Native Token:</strong> SKA</p>
 
-                    Detailed allocation and vesting schedules will be transparently disclosed prior to mainnet launch.
-                    `
-        },
+                <p><strong>Supply & Distribution:</strong></p>
+                <ul class="bullet-list">
+                  <li><strong>Total Supply:</strong> 1,000,000,000 SKA (fixed)</li>
+                  <li><strong>Premine:</strong> 25% allocated for initial development, partnerships, and early incentives</li>
+                  <li><strong>Emission:</strong> 75% distributed via block rewards over 20 years</li>
+                  <li><strong>Block Reward:</strong> 2.375 SKA per block</li>
+                </ul>
+
+                <p>Detailed allocation and vesting schedules will be transparently disclosed prior to mainnet launch.</p>
+              `
+            },
+
         {
           title: "7. Use Cases",
           content: `<ul><li>Intellectual Property...</li></ul>`
@@ -216,6 +221,7 @@ export default {
   color: #007bff;
 }
 
+
 .whitepaper-page ul {
   padding-left: 1.2rem;
   margin-top: 0.5rem;
@@ -224,5 +230,7 @@ export default {
 .whitepaper-page ul li {
   margin-bottom: 0.5rem;
 }
+
+
 
 </style>
