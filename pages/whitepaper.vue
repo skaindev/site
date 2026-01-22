@@ -208,10 +208,12 @@ export default {
 }
 
 
-.whitepaper-page ul {
-  padding-left: 1.2rem;
+.whitepaper-page ul:not(.bullet-list) {
+  list-style: none;
+  padding-left: 0;
   margin-top: 0.5rem;
 }
+
 
 .whitepaper-page ul li {
   margin-bottom: 0.5rem;
@@ -244,12 +246,6 @@ export default {
   font-size: 1rem;
   color: #333;
 }
-
-
-
-
-
-
 
 
 
