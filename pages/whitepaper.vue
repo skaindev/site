@@ -149,6 +149,8 @@ export default {
 </script>
 
 <style scoped>
+
+  
 .whitepaper-container {
   display: flex;
   max-width: 1200px;
@@ -156,30 +158,6 @@ export default {
   padding: 2rem;
   gap: 2rem;
 }
-
-.whitepaper-page {
-  flex: 1;
-  font-family: "Inter", sans-serif;
-  line-height: 1.6;
-  color: #1c1c1c;
-}
-
-.whitepaper-section + .whitepaper-section {
-  margin-top: 2.5rem;
-}
-
-.section-title {
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  color: #111;
-}
-
-.section-text {
-  font-size: 1rem;
-  color: #333;
-}
-
 
 
 /* Sticky Table of Contents */
@@ -222,6 +200,14 @@ export default {
 }
 
 
+/* Whitepaper bullet lists */
+.whitepaper-page .bullet-list {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin: 0.75rem 0;
+}
+
+
 .whitepaper-page ul {
   padding-left: 1.2rem;
   margin-top: 0.5rem;
@@ -230,6 +216,41 @@ export default {
 .whitepaper-page ul li {
   margin-bottom: 0.5rem;
 }
+
+.whitepaper-page .bullet-list li {
+  margin-bottom: 0.5rem;
+}
+
+
+.whitepaper-page {
+  flex: 1;
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+  color: #1c1c1c;
+}
+
+.whitepaper-section + .whitepaper-section {
+  margin-top: 2.5rem;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #111;
+}
+
+.section-text {
+  font-size: 1rem;
+  color: #333;
+}
+
+
+
+
+
+
+
 
 
 
