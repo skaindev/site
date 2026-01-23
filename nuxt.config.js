@@ -76,7 +76,7 @@ export default {
     })(),
   },
 
-  css: ['~/assets/css/normalize.css', '~/assets/css/styles.css'],
+  css: ['~/assets/css/normalize.css', '~/assets/css/styles.css', '@/assets/css/whitepaper.css'],
 
   plugins: [
 
