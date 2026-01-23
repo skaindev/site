@@ -47,74 +47,86 @@ export default {
           title: "2. Vision & Mission",
           content: `
             <p><strong>Vision:</strong> A world where no essential document can ever disappear.</p>
-            <p><strong>Mission:</strong> To provide a decentralized, censorship-resistant ledger capable of storing and validating information for centuries.</p>
-            <p>Skaina is not just a blockchain — it is a permanent vault of truth.</p>         
-            `
+            <p><strong>Mission:</strong> To provide a decentralized, censorship-resistant ledger capable of storing and validating information
+               for centuries.</p>
+            <p><strong>Skaina</strong> is not just a blockchain — it is a permanent vault of truth.</p>         
+          `
         },
         {
           title: "3. Core Principles",
           content: `<ul class="bullet-list">
-                      <li><strong>Permanence:</strong> Once stored, data cannot be removed or altered.</li>
-                      <li><strong>Integrity:</strong> Every block and transaction is cryptographically verifiable.</li>
-                      <li><strong>Neutrality:</strong> No centralized authority can censor, modify, or intercept data.</li>
-                      <li><strong>Longevity:</strong> Designed for decades-long sustainability of the blockchain.</li>
-                      <li><strong>Utility:</strong> Supports both secure data anchoring and fast, decentralized payments.</li>         
+                      <li󠁯>•󠁏<strong> Permanence:</strong> Once stored, data cannot be removed or altered.</li>
+                      <li>󠁯•󠁏<strong> Integrity:</strong> Every block and transaction is cryptographically verifiable.</li>
+                      <li>󠁯•󠁏<strong> Neutrality:</strong> No centralized authority can censor, modify, or intercept data.</li>
+                      <li>󠁯󠁯•󠁏<strong> Longevity:</strong> Designed for decades-long sustainability of the blockchain.</li>
+                      <li>󠁯•󠁏<strong> Utility:</strong> Supports both secure data anchoring and fast, decentralized payments.</li>         
                     </ul>`
         },
         {
           title: "4. Architecture Overview",
-          content: `Skaina employs a layered architecture to balance speed, security, and storage efficiency:<br/></br>
-                    <strong>Layer 1</strong> – Core blockchain with sidechain-based scaling support;<br/>
-                    <strong>Consensus Engine:</strong> Tendermint Core, combining PoS and dBFT;<br/>
-                    <strong>PoS</strong> – BFT based consensus core with delegated participation;<br/>
-                    <strong>Instant finality</strong> handling validation, settlement, and security.<br/>`
+          content: `
+            <p>Skaina employs a layered architecture to balance speed, security, and storage efficiency:</p>
+            </br>
+            <ul class="bullet-list">
+                <li>•󠁏<strong> Layer 1:</strong> Core blockchain with sidechain-based scaling support</li>
+                <li>•󠁏<strong> Consensus Engine:</strong> Tendermint Core, combining PoS and dBFT</li>
+                <li>•󠁏<strong> PoS:</strong> BFT based consensus core with delegated participation</li>
+                <li>•󠁏<strong> Instant finality:</strong> Handles validation, settlement, and security</li>
+            </ul>
+          `
         },
         {
           title: "5. Consensus & Blockchain Parameters",
-          content: `
-                    <strong>Block Time:</strong>  2 seconds;<br/>
-                    <strong>Block Size:</strong>  Up to 20 MB;<br/>
-                    <strong>Validators:</strong>  Up to 51;<br/>
-                    <strong>Minimum Stake per Validator:</strong>  5,000,000 SKA;<br/>
-                    <strong>Validator Rotation:</strong>  Yes, no slashing penalties.<br/>
-                      `
+          content: `<ul class="bullet-list">
+                        <li>•󠁏<strong> Block Time:</strong> 2 seconds</li>
+                        <li>•󠁏<strong> Block Size:</strong> Up to 20 MB</li>
+                        <li>•󠁏<strong> Validators:</strong> Up to 51</li>
+                        <li>•󠁏<strong> Minimum Stake per Validator:</strong> 5,000,000 SKA</li>
+                        <li>•󠁏<strong> Validator Rotation:</strong> Yes, no slashing penalties</li>
+                    </ul>
+          `
         },
-            {
-              title: "6. Tokenomics",
-              content: `
-                <p><strong>Native Token:</strong> SKA</p>
-
-                <p><strong>Supply & Distribution:</strong></p>
-                <ul class="bullet-list">
-                  <li><strong>Total Supply:</strong> 1,000,000,000 SKA (fixed)</li>
-                  <li><strong>Premine:</strong> 25% allocated for initial development, partnerships, and early incentives</li>
-                  <li><strong>Emission:</strong> 75% distributed via block rewards over 20 years</li>
-                  <li><strong>Block Reward:</strong> 2.375 SKA per block</li>
-                </ul>
-
-                <p>Detailed allocation and vesting schedules will be transparently disclosed prior to mainnet launch.</p>
-              `
-            },
-
+        {
+          title: "6. Tokenomics",
+          content: `
+            <p><strong>Native Token:</strong> SKA</p>
+            <p><strong>Supply & Distribution:</strong><p>
+            <ul class="bullet-list">
+              <li>•󠁏<strong>  Total Supply:</strong> 1,000,000,000 SKA (fixed)</li>
+              <li>•󠁏<strong>  Premine:</strong> 25% allocated for initial development, partnerships, and early incentives</li>
+              <li>•󠁏<strong>  Emission:</strong> 75% distributed via block rewards over 20 years</li>
+              <li>•󠁏<strong>  Block Reward:</strong> 2.375 SKA per block</li>
+            </ul>
+            <p>Detailed allocation and vesting schedules will be transparently disclosed prior to mainnet launch.</p>
+          `
+        },
         {
           title: "7. Use Cases",
-          content: `<ul><li>Intellectual Property...</li></ul>`
+          content: `<ul class="bullet-list">
+                    <li> Intellectual Property</li>
+                    <li>Legal Documents</li>
+                    <li> Medical & Identity Records</li>
+                    <li> Corporate & Government Records</li>
+                    <li> Digital Payments</li></ul>`
         },
         {
           title: "8. Governance Model",
-          content: `Decentralized and community-driven...`
+          content: `<li>Decentralized and community-driven, token holders can vote on upgrades, economic parameters, and ecosystem funding.</li>`
         },
         {
           title: "9. Security & Longevity",
-          content: `Advanced cryptographic protections...`
+          content: `<li>Advanced cryptography, multi-node consensus, fork resistance, fraud proofs, and long-term archive integrity.</li>`
         },
         {
           title: "10. Roadmap",
-          content: `Phase 1 – Foundation...`
+          content: `<li>Phase 1 – Foundation: blockchain architecture, cryptographic model, whitepaper release.</li>
+                    <li>Phase 2 – Core Network: testnet, block explorer, wallet.</li>
+                    <li>Phase 3 – Mainnet Launch: validator onboarding, token distribution, exchange listing.</li>
+                    <li>Phase 4 – Ecosystem Expansion: L2 data anchoring protocol, developer SDK, institutional integrations.</li>`
         },
         {
           title: "11. Conclusion",
-          content: `Skaina is more than a blockchain — it is a digital vault...`
+          content: `<li>Skaina is more than a blockchain — it is a digital vault for humanity's most valuable information. A platform where truth is permanent, documents live forever, and legacy becomes unbreakable.</li>`
         }
       ]
     };
@@ -148,9 +160,7 @@ export default {
 };
 </script>
 
-<style scoped>
-
-  
+<style>
 .whitepaper-container {
   display: flex;
   max-width: 1200px;
@@ -158,7 +168,6 @@ export default {
   padding: 2rem;
   gap: 2rem;
 }
-
 
 /* Sticky Table of Contents */
 .toc {
@@ -199,31 +208,7 @@ export default {
   color: #007bff;
 }
 
-
-/* Whitepaper bullet lists */
-.whitepaper-page .bullet-list {
-  list-style: disc;
-  padding-left: 1.5rem;
-  margin: 0.75rem 0;
-}
-
-
-.whitepaper-page ul:not(.bullet-list) {
-  list-style: none;
-  padding-left: 0;
-  margin-top: 0.5rem;
-}
-
-
-.whitepaper-page ul li {
-  margin-bottom: 0.5rem;
-}
-
-.whitepaper-page .bullet-list li {
-  margin-bottom: 0.5rem;
-}
-
-
+/* WHITEPAPER CONTENT */
 .whitepaper-page {
   flex: 1;
   font-family: "Inter", sans-serif;
@@ -247,7 +232,15 @@ export default {
   color: #333;
 }
 
+/* BULLET LISTS — GLOBAL SAFE */
+.whitepaper-page .bullet-list {
+  list-style: disc !important;
+  padding-left: 1.5rem !important;
+  margin: 0.75rem 0 !important;
+}
 
-
-
+.whitepaper-page .bullet-list li {
+  display: list-item !important;
+  margin-bottom: 0.5rem !important;
+}
 </style>
