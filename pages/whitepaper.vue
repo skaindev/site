@@ -103,11 +103,11 @@ export default {
         {
           title: "7. Use Cases",
           content: `<ul class="bullet-list">
-                    <li> Intellectual Property</li>
-                    <li>Legal Documents</li>
-                    <li> Medical & Identity Records</li>
-                    <li> Corporate & Government Records</li>
-                    <li> Digital Payments</li></ul>`
+                    <li>•󠁏 Intellectual Property</li>
+                    <li>•󠁏 Legal Documents</li>
+                    <li>•󠁏 Medical & Identity Records</li>
+                    <li>•󠁏 Corporate & Government Records</li>
+                    <li>•󠁏 Digital Payments</li></ul>`
         },
         {
           title: "8. Governance Model",
