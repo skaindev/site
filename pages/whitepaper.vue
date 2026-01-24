@@ -103,11 +103,11 @@ export default {
         {
           title: "7. Use Cases",
           content: `<ul class="bullet-list">
-                    <li>•󠁏 Intellectual Property</li>
-                    <li>•󠁏 Legal Documents</li>
-                    <li>•󠁏 Medical & Identity Records</li>
-                    <li>•󠁏 Corporate & Government Records</li>
-                    <li>•󠁏 Digital Payments</li></ul>`
+                    <li>•󠁏<strong> Intellectual Property:</strong> Patents, authorship proofs, research timestamps</li>
+                    <li>•󠁏<strong> Legal Documents:</strong> Contracts, agreements, certificates, land titles</li>
+                    <li>•󠁏<strong> Medical & Identity Records:</strong> Secure identity proofs, medical histories</li>
+                    <li>•󠁏<strong> Corporate & Government Records:</strong> Internal registers, transparent public logs</li>
+                    <li>•󠁏<strong> Digital Payments:</strong> Fast, decentralized value transfer</li></ul>`
         },
         {
           title: "8. Governance Model",
