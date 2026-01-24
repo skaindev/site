@@ -117,15 +117,15 @@ export default {
           title: "9. Security & Longevity",
           content: `<li>Advanced cryptography, multi-node consensus, fork resistance, fraud proofs, and long-term archive integrity.</li>`
         },
+        // {
+        //   title: "10. Roadmap",
+        //   content: `<li>Phase 1 – Foundation: blockchain architecture, cryptographic model, whitepaper release.</li>
+        //             <li>Phase 2 – Core Network: testnet, block explorer, wallet.</li>
+        //             <li>Phase 3 – Mainnet Launch: validator onboarding, token distribution, exchange listing.</li>
+        //             <li>Phase 4 – Ecosystem Expansion: L2 data anchoring protocol, developer SDK, institutional integrations.</li>`
+        // },
         {
-          title: "10. Roadmap",
-          content: `<li>Phase 1 – Foundation: blockchain architecture, cryptographic model, whitepaper release.</li>
-                    <li>Phase 2 – Core Network: testnet, block explorer, wallet.</li>
-                    <li>Phase 3 – Mainnet Launch: validator onboarding, token distribution, exchange listing.</li>
-                    <li>Phase 4 – Ecosystem Expansion: L2 data anchoring protocol, developer SDK, institutional integrations.</li>`
-        },
-        {
-          title: "11. Conclusion",
+          title: "10. Conclusion",
           content: `<li>Skaina is more than a blockchain — it is a digital vault for humanity's most valuable information. A platform where truth is permanent, documents live forever, and legacy becomes unbreakable.</li>`
         }
       ]
