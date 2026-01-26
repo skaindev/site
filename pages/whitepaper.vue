@@ -177,13 +177,53 @@ export default {
             `
         },
         {
-          title: "9. Security & Longevity",
-          content: `<ul class="bullet-list">
-                       <li>•󠁏 Advanced cryptographic protections</li>
-                       <li>•󠁏 Multi-node consensus for fork resistance</li>
-                       <li>•󠁏 Fraud proofs for long-term document integrity</li>
-                       <li>•󠁏 Mechanisms for decades-long archival will be detailed in future updates</li>
-                       `
+          title: "9. Token Economics",
+          content: `
+            <p>
+              The Skaina network is powered by <strong>SKA</strong>, the native utility token designed
+              to align incentives between users, validators, delegators, and long-term network sustainability.
+            </p>
+
+            <ul>
+              <li>
+                <strong>Transaction Fees</strong><br />
+                SKA is used to pay for on-chain transactions, data anchoring operations,
+                and permanent record registration on the Skaina blockchain.
+              </li>
+
+              <li>
+                <strong>Validator & Delegator Incentives</strong><br />
+                Validators earn SKA for securing the network and producing blocks.
+                Delegators may support validators by delegating SKA and sharing in protocol rewards
+                according to validator-defined commission models.
+              </li>
+
+              <li>
+                <strong>Network Security</strong><br />
+                SKA staking mechanisms align economic incentives to encourage honest behavior
+                and long-term participation in network maintenance.
+              </li>
+
+              <li>
+                <strong>Governance Utility</strong><br />
+                SKA holders may participate in on-chain governance by voting on proposals,
+                protocol upgrades, and economic parameter adjustments, either directly
+                or through delegated voting.
+              </li>
+
+              <li>
+                <strong>Long-Term Sustainability</strong><br />
+                Token supply and distribution mechanisms are designed to support
+                predictable network operation and gradual ecosystem growth.
+              </li>
+            </ul>
+
+            <p>
+              Detailed supply metrics, issuance schedules, and distribution models
+              will be finalized and published in a future protocol specification
+              and Whitepaper 2.0.
+            </p>
+          `
         },
         // {
         //   title: "10. Roadmap",
