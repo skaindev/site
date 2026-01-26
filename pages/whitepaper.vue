@@ -101,58 +101,42 @@ export default {
           `
         },
         {
-          title: "7. Use Cases",
-          content: `
-            <p>
-              Skaina is designed as a <strong>general-purpose blockchain for permanent data preservation</strong>,
-              enabling a wide range of use cases that require immutability, verifiable timestamps,
-              and long-term integrity.
-            </p>
+        title: "7. Token Utility",
+        content: `
+          <p>
+            <strong>SKA</strong> is the native utility token of the Skaina blockchain and is
+            required for interaction with the protocol.
+          </p>
 
-            <ul>
-              <li>
-                <strong>Intellectual Property & Research</strong><br />
-                Patents, inventions, source code, scientific research, and authorship proofs
-                can be timestamped and anchored on Skaina to establish immutable proof of existence.
-              </li>
+          <ul>
+            <li>
+              <strong>Transaction Fees</strong><br />
+              SKA is used to pay for transactions and on-chain operations.
+            </li>
 
-              <li>
-                <strong>Legal & Regulatory Documents</strong><br />
-                Contracts, agreements, certificates, land titles, and compliance records
-                can be permanently recorded to ensure authenticity, traceability, and auditability.
-              </li>
+            <li>
+              <strong>Data Anchoring</strong><br />
+              Anchoring documents, hashes, and proofs requires SKA.
+            </li>
 
-              <li>
-                <strong>Identity & Medical Records</strong><br />
-                Secure identity proofs, credentials, and medical histories can be anchored
-                while preserving user privacy through off-chain storage and cryptographic proofs.
-              </li>
+            <li>
+              <strong>Network Security</strong><br />
+              Validators and delegators use SKA to secure the network and participate
+              in consensus.
+            </li>
 
-              <li>
-                <strong>Corporate & Institutional Records</strong><br />
-                Internal logs, corporate resolutions, governance records, and public disclosures
-                can be stored to increase transparency and reduce reliance on centralized archives.
-              </li>
+            <li>
+              <strong>Governance</strong><br />
+              SKA grants the right to participate in protocol governance,
+              either directly or through delegation.
+            </li>
+          </ul>
 
-              <li>
-                <strong>Public Archives & Digital Heritage</strong><br />
-                Cultural records, historical documents, academic archives, and digital artifacts
-                can be preserved as part of a permanent, decentralized public ledger.
-              </li>
-
-              <li>
-                <strong>Digital Payments & Network Utility</strong><br />
-                SKA enables fast, decentralized value transfer and serves as the utility token
-                for transaction fees, data anchoring, validation, and governance participation.
-              </li>
-            </ul>
-
-            <p>
-              These use cases position Skaina as a <strong>foundational layer for long-term data integrity</strong>,
-              rather than a short-term transactional blockchain.
-            </p>
-          `
-        },
+          <p>
+            Additional utility extensions may be introduced over time.
+          </p>
+        `
+      },
         {
           title: "8. Governance Model",
           content: `<p>
@@ -176,38 +160,37 @@ export default {
                   <li>
             `
         },
-{
-  title: "9. Token Economics",
-  content: `
-    <p>
-      The Skaina network is powered by <strong>SKA</strong>, the native utility token
-      used to operate, secure, and govern the protocol.
-    </p>
+        {
+          title: "9. Token Economics",
+          content: `
+            <p>
+              The Skaina network is powered by <strong>SKA</strong>, the native utility token
+              used to operate, secure, and govern the protocol.
+            </p>
 
-    <ul>
-      <li>
-        <strong>Network Usage</strong><br />
-        SKA is used to pay transaction fees and data anchoring costs on the Skaina blockchain.
-      </li>
+            <ul>
+              <li>
+                <strong>Network Usage</strong><br />
+                SKA is used to pay transaction fees and data anchoring costs on the Skaina blockchain.
+              </li>
 
-      <li>
-        <strong>Validators & Delegators</strong><br />
-        Validators earn SKA for securing the network, while delegators may support validators
-        and participate in reward distribution.
-      </li>
+              <li>
+                <strong>Validators & Delegators</strong><br />
+                Validators earn SKA for securing the network, while delegators may support validators
+                and participate in reward distribution.
+              </li>
 
-      <li>
-        <strong>Governance</strong><br />
-        SKA enables participation in on-chain governance, either directly or via delegation.
-      </li>
-    </ul>
+              <li>
+                <strong>Governance</strong><br />
+                SKA enables participation in on-chain governance, either directly or via delegation.
+              </li>
+            </ul>
 
-    <p>
-      Detailed economic parameters will be defined in Whitepaper 2.0.
-    </p>
-  `
-}
-
+            <p>
+              Detailed economic parameters will be defined in Whitepaper 2.0.
+            </p>
+          `
+        },
         // {
         //   title: "10. Roadmap",
         //   content: `<li>Phase 1 – Foundation: blockchain architecture, cryptographic model, whitepaper release.</li>
