@@ -176,55 +176,38 @@ export default {
                   <li>
             `
         },
-        {
-          title: "9. Token Economics",
-          content: `
-            <p>
-              The Skaina network is powered by <strong>SKA</strong>, the native utility token designed
-              to align incentives between users, validators, delegators, and long-term network sustainability.
-            </p>
+{
+  title: "9. Token Economics",
+  content: `
+    <p>
+      The Skaina network is powered by <strong>SKA</strong>, the native utility token
+      used to operate, secure, and govern the protocol.
+    </p>
 
-            <ul>
-              <li>
-                <strong>Transaction Fees</strong><br />
-                SKA is used to pay for on-chain transactions, data anchoring operations,
-                and permanent record registration on the Skaina blockchain.
-              </li>
+    <ul>
+      <li>
+        <strong>Network Usage</strong><br />
+        SKA is used to pay transaction fees and data anchoring costs on the Skaina blockchain.
+      </li>
 
-              <li>
-                <strong>Validator & Delegator Incentives</strong><br />
-                Validators earn SKA for securing the network and producing blocks.
-                Delegators may support validators by delegating SKA and sharing in protocol rewards
-                according to validator-defined commission models.
-              </li>
+      <li>
+        <strong>Validators & Delegators</strong><br />
+        Validators earn SKA for securing the network, while delegators may support validators
+        and participate in reward distribution.
+      </li>
 
-              <li>
-                <strong>Network Security</strong><br />
-                SKA staking mechanisms align economic incentives to encourage honest behavior
-                and long-term participation in network maintenance.
-              </li>
+      <li>
+        <strong>Governance</strong><br />
+        SKA enables participation in on-chain governance, either directly or via delegation.
+      </li>
+    </ul>
 
-              <li>
-                <strong>Governance Utility</strong><br />
-                SKA holders may participate in on-chain governance by voting on proposals,
-                protocol upgrades, and economic parameter adjustments, either directly
-                or through delegated voting.
-              </li>
+    <p>
+      Detailed economic parameters will be defined in Whitepaper 2.0.
+    </p>
+  `
+}
 
-              <li>
-                <strong>Long-Term Sustainability</strong><br />
-                Token supply and distribution mechanisms are designed to support
-                predictable network operation and gradual ecosystem growth.
-              </li>
-            </ul>
-
-            <p>
-              Detailed supply metrics, issuance schedules, and distribution models
-              will be finalized and published in a future protocol specification
-              and Whitepaper 2.0.
-            </p>
-          `
-        },
         // {
         //   title: "10. Roadmap",
         //   content: `<li>Phase 1 – Foundation: blockchain architecture, cryptographic model, whitepaper release.</li>
