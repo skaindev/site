@@ -102,13 +102,56 @@ export default {
         },
         {
           title: "7. Use Cases",
-          content: `<ul class="bullet-list">
-                      <li>•󠁏<strong> Intellectual Property:</strong> Patents, authorship proofs, research timestamps</li>
-                      <li>•󠁏<strong> Legal Documents:</strong> Contracts, agreements, certificates, land titles</li>
-                      <li>•󠁏<strong> Medical & Identity Records:</strong> Secure identity proofs, medical histories</li>
-                      <li>•󠁏<strong> Corporate & Government Records:</strong> Internal registers, transparent public logs</li>
-                      <li>•󠁏<strong> Digital Payments:</strong> Fast, decentralized value transfer</li>
-                    </ul>`
+          content: `
+            <p>
+              Skaina is designed as a <strong>general-purpose blockchain for permanent data preservation</strong>,
+              enabling a wide range of use cases that require immutability, verifiable timestamps,
+              and long-term integrity.
+            </p>
+
+            <ul>
+              <li>
+                <strong>Intellectual Property & Research</strong><br />
+                Patents, inventions, source code, scientific research, and authorship proofs
+                can be timestamped and anchored on Skaina to establish immutable proof of existence.
+              </li>
+
+              <li>
+                <strong>Legal & Regulatory Documents</strong><br />
+                Contracts, agreements, certificates, land titles, and compliance records
+                can be permanently recorded to ensure authenticity, traceability, and auditability.
+              </li>
+
+              <li>
+                <strong>Identity & Medical Records</strong><br />
+                Secure identity proofs, credentials, and medical histories can be anchored
+                while preserving user privacy through off-chain storage and cryptographic proofs.
+              </li>
+
+              <li>
+                <strong>Corporate & Institutional Records</strong><br />
+                Internal logs, corporate resolutions, governance records, and public disclosures
+                can be stored to increase transparency and reduce reliance on centralized archives.
+              </li>
+
+              <li>
+                <strong>Public Archives & Digital Heritage</strong><br />
+                Cultural records, historical documents, academic archives, and digital artifacts
+                can be preserved as part of a permanent, decentralized public ledger.
+              </li>
+
+              <li>
+                <strong>Digital Payments & Network Utility</strong><br />
+                SKA enables fast, decentralized value transfer and serves as the utility token
+                for transaction fees, data anchoring, validation, and governance participation.
+              </li>
+            </ul>
+
+            <p>
+              These use cases position Skaina as a <strong>foundational layer for long-term data integrity</strong>,
+              rather than a short-term transactional blockchain.
+            </p>
+          `
         },
         {
           title: "8. Governance Model",
