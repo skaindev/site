@@ -103,19 +103,44 @@ export default {
         {
           title: "7. Use Cases",
           content: `<ul class="bullet-list">
-                    <li>•󠁏<strong> Intellectual Property:</strong> Patents, authorship proofs, research timestamps</li>
-                    <li>•󠁏<strong> Legal Documents:</strong> Contracts, agreements, certificates, land titles</li>
-                    <li>•󠁏<strong> Medical & Identity Records:</strong> Secure identity proofs, medical histories</li>
-                    <li>•󠁏<strong> Corporate & Government Records:</strong> Internal registers, transparent public logs</li>
-                    <li>•󠁏<strong> Digital Payments:</strong> Fast, decentralized value transfer</li></ul>`
+                      <li>•󠁏<strong> Intellectual Property:</strong> Patents, authorship proofs, research timestamps</li>
+                      <li>•󠁏<strong> Legal Documents:</strong> Contracts, agreements, certificates, land titles</li>
+                      <li>•󠁏<strong> Medical & Identity Records:</strong> Secure identity proofs, medical histories</li>
+                      <li>•󠁏<strong> Corporate & Government Records:</strong> Internal registers, transparent public logs</li>
+                      <li>•󠁏<strong> Digital Payments:</strong> Fast, decentralized value transfer</li>
+                    </ul>`
         },
         {
           title: "8. Governance Model",
-          content: `<li>Decentralized and community-driven, token holders can vote on upgrades, economic parameters, and ecosystem funding.</li>`
+          content: `<p>
+      Skaina governance is <strong>decentralized and community-driven</strong>, designed to balance network security,
+      long-term stability, and broad stakeholder participation.
+    </p>
+
+                <ul class="bullet-list">
+                  <li>•󠁏
+                    <strong>Validators</strong> are responsible for block production, transaction validation,
+                    and maintaining network consensus.
+                  </li>
+                  <li>•󠁏
+                    <strong>Delegators</strong> may delegate their SKA tokens to trusted validators,
+                    participating indirectly in network security and governance without running validator infrastructure.
+                  </li>
+                  <li>•󠁏
+                    <strong>Token holders</strong> can participate in on-chain governance by voting on protocol upgrades,
+                    economic parameters, and ecosystem initiatives, either directly or via delegated voting power.
+                  </li>
+                  <li>
+            `
         },
         {
           title: "9. Security & Longevity",
-          content: `<li>Advanced cryptography, multi-node consensus, fork resistance, fraud proofs, and long-term archive integrity.</li>`
+          content: `<ul class="bullet-list">
+                       <li>•󠁏 Advanced cryptographic protections</li>
+                       <li>•󠁏 Multi-node consensus for fork resistance</li>
+                       <li>•󠁏 Fraud proofs for long-term document integrity</li>
+                       <li>•󠁏 Mechanisms for decades-long archival will be detailed in future updates</li>
+                       `
         },
         // {
         //   title: "10. Roadmap",
@@ -126,7 +151,9 @@ export default {
         // },
         {
           title: "10. Conclusion",
-          content: `<li>Skaina is more than a blockchain — it is a digital vault for humanity's most valuable information. A platform where truth is permanent, documents live forever, and legacy becomes unbreakable.</li>`
+          content: `Skaina is more than a blockchain — it is a <strong>digital vault for humanity’s most valuable information</strong>.<br />
+            A platform where truth is permanent, documents live forever, and human legacy becomes unbreakable.<br /><br />
+            <strong>Tagline:</strong> "Your legacy, our way. Forever."`
         }
       ]
     };
