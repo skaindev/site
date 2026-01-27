@@ -55,11 +55,11 @@ export default {
         {
           title: "3. Core Principles",
           content: `<ul class="bullet-list">
-                      <li󠁯>•󠁏<strong> Permanence:</strong> Once stored, data cannot be removed or altered.</li>
-                      <li>󠁯•󠁏<strong> Integrity:</strong> Every block and transaction is cryptographically verifiable.</li>
-                      <li>󠁯•󠁏<strong> Neutrality:</strong> No centralized authority can censor, modify, or intercept data.</li>
-                      <li>󠁯󠁯•󠁏<strong> Longevity:</strong> Designed for decades-long sustainability of the blockchain.</li>
-                      <li>󠁯•󠁏<strong> Utility:</strong> Supports both secure data anchoring and fast, decentralized payments.</li>         
+                      <li󠁯><strong> Permanence:</strong> Once stored, data cannot be removed or altered.</li>
+                      <li>󠁯<strong> Integrity:</strong> Every block and transaction is cryptographically verifiable.</li>
+                      <li>󠁯<strong> Neutrality:</strong> No centralized authority can censor, modify, or intercept data.</li>
+                      <li>󠁯󠁯<strong> Longevity:</strong> Designed for decades-long sustainability of the blockchain.</li>
+                      <li>󠁯<strong> Utility:</strong> Supports both secure data anchoring and fast, decentralized payments.</li>         
                     </ul>`
         },
         {
@@ -68,21 +68,21 @@ export default {
             <p>Skaina employs a layered architecture to balance speed, security, and storage efficiency:</p>
             </br>
             <ul class="bullet-list">
-                <li>•󠁏<strong> Layer 1:</strong> Core blockchain with sidechain-based scaling support</li>
-                <li>•󠁏<strong> Consensus Engine:</strong> Tendermint Core, combining PoS and dBFT</li>
-                <li>•󠁏<strong> PoS:</strong> BFT based consensus core with delegated participation</li>
-                <li>•󠁏<strong> Instant finality:</strong> Handles validation, settlement, and security</li>
+                <li><strong> Layer 1:</strong> Core blockchain with sidechain-based scaling support</li>
+                <li><strong> Consensus Engine:</strong> Tendermint Core, combining PoS and dBFT</li>
+                <li><strong> PoS:</strong> BFT based consensus core with delegated participation</li>
+                <li><strong> Instant finality:</strong> Handles validation, settlement, and security</li>
             </ul>
           `
         },
         {
           title: "5. Consensus & Blockchain Parameters",
           content: `<ul class="bullet-list">
-                        <li>•󠁏<strong> Block Time:</strong> 2 seconds</li>
-                        <li>•󠁏<strong> Block Size:</strong> Up to 20 MB</li>
-                        <li>•󠁏<strong> Validators:</strong> Up to 51</li>
-                        <li>•󠁏<strong> Minimum Stake per Validator:</strong> 5,000,000 SKA</li>
-                        <li>•󠁏<strong> Validator Rotation:</strong> Yes, no slashing penalties</li>
+                        <li><strong> Block Time:</strong> 2 seconds</li>
+                        <li><strong> Block Size:</strong> Up to 20 MB</li>
+                        <li><strong> Validators:</strong> Up to 51</li>
+                        <li><strong> Minimum Stake per Validator:</strong> 5,000,000 SKA</li>
+                        <li><strong> Validator Rotation:</strong> Yes, no slashing penalties</li>
                     </ul>
           `
         },
@@ -92,10 +92,10 @@ export default {
             <p><strong>Native Token:</strong> SKA</p>
             <p><strong>Supply & Distribution:</strong><p>
             <ul class="bullet-list">
-              <li>•󠁏<strong>  Total Supply:</strong> 1,000,000,000 SKA (fixed)</li>
-              <li>•󠁏<strong>  Premine:</strong> 25% allocated for initial development, partnerships, and early incentives</li>
-              <li>•󠁏<strong>  Emission:</strong> 75% distributed via block rewards over 20 years</li>
-              <li>•󠁏<strong>  Block Reward:</strong> 2.375 SKA per block</li>
+              <li><strong> Total Supply:</strong> 1,000,000,000 SKA (fixed)</li>
+              <li><strong> Premine:</strong> 25% allocated for initial development, partnerships, and early incentives</li>
+              <li><strong> Emission:</strong> 75% distributed via block rewards over 20 years</li>
+              <li><strong> Block Reward:</strong> 2.375 SKA per block</li>
             </ul>
             <p>Detailed allocation and vesting schedules will be transparently disclosed prior to mainnet launch.</p>
           `
@@ -109,24 +109,20 @@ export default {
           </p>
 
           <ul>
-            <li>•󠁏
-              <strong>Transaction Fees:</strong>
+            <li><strong>Transaction Fees:</strong>
               SKA is used to pay for transactions and on-chain operations.
             </li>
 
-            <li>•󠁏
-              <strong>Data Anchoring:</strong>
+            <li><strong>Data Anchoring:</strong>
               Anchoring documents, hashes, and proofs requires SKA.
             </li>
 
-            <li>•
-              <strong>Network Security:</strong>
+            <li><strong>Network Security:</strong>
               Validators and delegators use SKA to secure the network and participate
               in consensus.
             </li>
 
-            <li>•󠁏
-              <strong>Governance:</strong>
+            <li><strong>Governance:</strong>
               SKA grants the right to participate in protocol governance,
               either directly or through delegation.
             </li>
