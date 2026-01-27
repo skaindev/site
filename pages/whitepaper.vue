@@ -165,19 +165,16 @@ export default {
             </p>
 
             <ul>
-              <li>•󠁏
-                <strong>Network Usage:</strong>
+              <li><strong>Network Usage:</strong>
                 SKA is used to pay transaction fees and data anchoring costs on the Skaina blockchain.
               </li>
 
-              <li>•󠁏
-                <strong>Validators & Delegators:</strong>
+              <li><strong>Validators & Delegators:</strong>
                 Validators earn SKA for securing the network, while delegators may support validators
                 and participate in reward distribution.
               </li>
 
-              <li>•󠁏
-                <strong>Governance:</strong>
+              <li><strong>Governance:</strong>
                 SKA enables participation in on-chain governance, either directly or via delegation.
               </li>
             </ul>
