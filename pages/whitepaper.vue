@@ -54,8 +54,8 @@ export default {
         },
         {
           title: "3. Core Principles",
-          content: `<ul class="bullet-list">
-                      <li󠁯><strong> Permanence:</strong> Once stored, data cannot be removed or altered.</li>
+          content: `<ul>
+                      <li>󠁯<strong> Performance:</strong> Once stored, data cannot be removed or altered.</li>
                       <li>󠁯<strong> Integrity:</strong> Every block and transaction is cryptographically verifiable.</li>
                       <li>󠁯<strong> Neutrality:</strong> No centralized authority can censor, modify, or intercept data.</li>
                       <li>󠁯󠁯<strong> Longevity:</strong> Designed for decades-long sustainability of the blockchain.</li>
@@ -67,7 +67,7 @@ export default {
           content: `
             <p>Skaina employs a layered architecture to balance speed, security, and storage efficiency:</p>
             </br>
-            <ul class="bullet-list">
+            <ul>
                 <li><strong> Layer 1:</strong> Core blockchain with sidechain-based scaling support</li>
                 <li><strong> Consensus Engine:</strong> Tendermint Core, combining PoS and dBFT</li>
                 <li><strong> PoS:</strong> BFT based consensus core with delegated participation</li>
@@ -77,7 +77,7 @@ export default {
         },
         {
           title: "5. Consensus & Blockchain Parameters",
-          content: `<ul class="bullet-list">
+          content: `<ul>
                         <li><strong> Block Time:</strong> 2 seconds</li>
                         <li><strong> Block Size:</strong> Up to 20 MB</li>
                         <li><strong> Validators:</strong> Up to 51</li>
@@ -91,11 +91,18 @@ export default {
           content: `
             <p><strong>Native Token:</strong> SKA</p>
             <p><strong>Supply & Distribution:</strong><p>
-            <ul class="bullet-list">
-              <li><strong> Total Supply:</strong> 1,000,000,000 SKA (fixed)</li>
-              <li><strong> Premine:</strong> 25% allocated for initial development, partnerships, and early incentives</li>
-              <li><strong> Emission:</strong> 75% distributed via block rewards over 20 years</li>
-              <li><strong> Block Reward:</strong> 2.375 SKA per block</li>
+            <ul>
+               <li><strong>Total Supply:</strong>
+                 1,000,000,000 SKA (fixed)
+                </li>
+              <li><strong>Premine:</strong>
+                           25% allocated for initial development, partnerships, and early incentives
+                </li>
+              <li><strong>Emission:</strong>
+                75% distributed via block rewards over 20 years
+              </li>
+              <li><strong>Block Reward:</strong>2.375 SKA per block
+                </li>
             </ul>
             <p>Detailed allocation and vesting schedules will be transparently disclosed prior to mainnet launch.</p>
           `
@@ -141,16 +148,13 @@ export default {
     </p>
 
                 <ul class="bullet-list">
-                  <li>•󠁏
-                    <strong>Validators</strong> are responsible for block production, transaction validation,
+                  <li><strong>Validators</strong> are responsible for block production, transaction validation,
                     and maintaining network consensus.
                   </li>
-                  <li>•󠁏
-                    <strong>Delegators</strong> may delegate their SKA tokens to trusted validators,
+                  <li><strong>Delegators</strong> may delegate their SKA tokens to trusted validators,
                     participating indirectly in network security and governance without running validator infrastructure.
                   </li>
-                  <li>•󠁏
-                    <strong>Token holders</strong> can participate in on-chain governance by voting on protocol upgrades,
+                  <li><strong>Token holders</strong> can participate in on-chain governance by voting on protocol upgrades,
                     economic parameters, and ecosystem initiatives, either directly or via delegated voting power.
                   </li>
                   <li>
