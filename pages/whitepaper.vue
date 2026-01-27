@@ -147,7 +147,7 @@ export default {
       long-term stability, and broad stakeholder participation.
     </p>
 
-                <ul class="bullet-list">
+                <ul>
                   <li><strong>Validators</strong> are responsible for block production, transaction validation,
                     and maintaining network consensus.
                   </li>
@@ -157,7 +157,6 @@ export default {
                   <li><strong>Token holders</strong> can participate in on-chain governance by voting on protocol upgrades,
                     economic parameters, and ecosystem initiatives, either directly or via delegated voting power.
                   </li>
-                  <li>
             `
         },
         {
