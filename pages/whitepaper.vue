@@ -109,24 +109,24 @@ export default {
           </p>
 
           <ul>
-            <li>
-              <strong>Transaction Fees</strong><br />
+            <li>•󠁏
+              <strong>Transaction Fees:</strong>
               SKA is used to pay for transactions and on-chain operations.
             </li>
 
-            <li>
-              <strong>Data Anchoring</strong><br />
+            <li>•󠁏
+              <strong>Data Anchoring:</strong>
               Anchoring documents, hashes, and proofs requires SKA.
             </li>
 
-            <li>
-              <strong>Network Security</strong><br />
+            <li>•
+              <strong>Network Security:</strong>
               Validators and delegators use SKA to secure the network and participate
               in consensus.
             </li>
 
-            <li>
-              <strong>Governance</strong><br />
+            <li>•󠁏
+              <strong>Governance:</strong>
               SKA grants the right to participate in protocol governance,
               either directly or through delegation.
             </li>
@@ -169,19 +169,19 @@ export default {
             </p>
 
             <ul>
-              <li>
-                <strong>Network Usage</strong><br />
+              <li>•󠁏
+                <strong>Network Usage:</strong>
                 SKA is used to pay transaction fees and data anchoring costs on the Skaina blockchain.
               </li>
 
-              <li>
-                <strong>Validators & Delegators</strong><br />
+              <li>•󠁏
+                <strong>Validators & Delegators:</strong>
                 Validators earn SKA for securing the network, while delegators may support validators
                 and participate in reward distribution.
               </li>
 
-              <li>
-                <strong>Governance</strong><br />
+              <li>•󠁏
+                <strong>Governance:</strong>
                 SKA enables participation in on-chain governance, either directly or via delegation.
               </li>
             </ul>
