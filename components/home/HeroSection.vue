@@ -75,7 +75,7 @@ export default {
 
 .hero-section {
   padding: 0 0 5rem !important;
-  margin-top: 6rem !important;
+  margin-top: 2rem !important;
 
 
   @media (--viewport-small) {
