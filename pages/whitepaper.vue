@@ -76,13 +76,15 @@ export default {
           `
         },
         {
-          title: "5. Consensus & Blockchain Parameters",
+          title: "5. Specifications",
           content: `<ul>
                         <li><strong> Block Time:</strong> 2 seconds</li>
                         <li><strong> Block Size:</strong> Up to 20 MB</li>
                         <li><strong> Validators:</strong> Up to 51</li>
                         <li><strong> Minimum Stake per Validator:</strong> 5,000,000 SKA</li>
-                        <li><strong> Validator Rotation:</strong> Yes, no slashing penalties</li>
+                        <li><strong> Validator Rotation:</strong> Yes, Enabled.</li>
+                        <li><strong> Slashing (jail):</strong> Yes. Disabled (testnet).</li>
+
                     </ul>
           `
         },
@@ -101,7 +103,7 @@ export default {
               <li><strong>Emission:</strong>
                 75% distributed via block rewards over 20 years
               </li>
-              <li><strong>Block Reward:</strong>2.375 SKA per block
+              <li><strong>Block Reward:</strong> 2.375 SKA per block
                 </li>
             </ul>
             <p>Detailed allocation and vesting schedules will be transparently disclosed prior to mainnet launch.</p>
