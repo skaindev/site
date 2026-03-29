@@ -31,7 +31,7 @@ style="text-align: left;" />
 <div class="spc"></div>
 
 <app-section-descriptor
-            description="Your legacy, our way. Forever."
+            description="Your truth, your legacy. Forever."
 style="text-align: left;" />
 <div class="spc"></div>
 
