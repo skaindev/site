@@ -200,7 +200,7 @@ export default {
           title: "10. Conclusion",
           content: `Skaina is more than a blockchain — it is a <strong>digital vault for humanity’s most valuable information</strong>.<br />
             A platform where truth is permanent, documents live forever, and human legacy becomes unbreakable.<br /><br />
-            <strong>Tagline:</strong> "Your legacy, our way. Forever."`
+            <strong>"Your truth, your legacy. Forever."</strong> `
         }
       ]
     };
