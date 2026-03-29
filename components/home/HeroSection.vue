@@ -9,7 +9,7 @@
       >
         <v-stack direction="column" class="hero-content-container">
           <v-heading :level="1" class="hero-title">
-            <div>Your Legacy. Your Way. Forever.</div>            
+            <div>Your truth, your legacy. Forever.</div>            
           </v-heading>
           <v-stack direction="column">
             <app-section-descriptor
