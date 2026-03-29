@@ -1,8 +1,8 @@
 const site = {
   url: 'https://skaina.com',
-  title: 'Your legacy, your way. Forever.',
+  title: 'Your truth, your legacy. Forever.',
   description:
-    'Your legacy, our way. Forever.',
+    'Your truth, your legacy. Forever.',
   image: 'https://skaina.com/',
   keywords: ['payments', 'blockchain'].join(', '),
 }
