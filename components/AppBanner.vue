@@ -1,7 +1,7 @@
 <template>
   <div class="banner">
     <v-text line-height="1.5" :weight="500" size="1rem">
-      <a href="https://testnet.skaina.com" target="_blank">Testnet will go live Q1 2026!</a>
+      <a href="https://testnet.skaina.com" target="_blank">Testnet will go live Q2 2026!</a>
     </v-text>
   </div>
   
